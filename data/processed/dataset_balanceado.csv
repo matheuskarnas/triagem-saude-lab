@@ -1,0 +1,1201 @@
+﻿texto;label;label_num
+dor no ombro, dor persistente no braço, dor na mão ou pé;NAO_URGENTE;0
+dor no peito recorrente, dificuldade para manter a posição ereta, fraqueza muscular geral, sensação de pressão no peito;URGENTE;1
+febre vaginal, sangramento vaginal;EMERGENCIA;2
+coceira intensa, irritação da pele;URGENTE;1
+respiração de falta de ar, perda de peso indesejada;EMERGENCIA;2
+dor no tornozelo, dor no pé, dificuldade em andar, coceira na cabeça;NAO_URGENTE;0
+dor abdominal, coceira na pele, erupção cutânea levantada, lábios inchados, rosto inchado, língua inchada, garganta inchada, partes inchadas do corpo, som assobiando ao respirar, dificuldade para respirar, diarréia, sensação de desmaio;EMERGENCIA;2
+dor de cabeça leve, coceira em membros superiores, dor no pescoço;NAO_URGENTE;0
+urina de sangue;URGENTE;1
+dor nasal persistente, congestão nasal;URGENTE;1
+coceira no peito, dor na mandíbula;URGENTE;1
+sentindo-se cansado, comer muito de uma vez, vômitos, visitas frequentes ao banheiro, sentindo-se triste, sentindo-se sem esperança, dor de garganta, dentes ruins, mudanças de humor, problemas para dormir, período perdido;EMERGENCIA;2
+cansaço extremo, febre, perda de peso indesejada;EMERGENCIA;2
+dor na cabeça, coceira generalizada, dificuldade respiratória intensa;URGENTE;1
+febre, dormência, formigamento em minky, dedos anelados, dor de dedo minky, dor de dedo anelar, dedo fraco, dedos desajeitados, agulhas pins sentindo no dedo;EMERGENCIA;2
+dores nas costas, dores musculares;EMERGENCIA;2
+dor no pescoço intensa, tontura, dificuldade respiratória leve;URGENTE;1
+dor de garganta, dificuldade de alimentação, dor de cabeça;URGENTE;1
+coceira na boca, cicatrizes em corpo;URGENTE;1
+pressão pélvica, dor lombar, bulging na vagina, pee vazamento, dor ao urinar, micção freqente;NAO_URGENTE;0
+fezes de sangue, constipação;EMERGENCIA;2
+sensação de calor no corpo, dor nas articulações;URGENTE;1
+hemorragia nasal, dor de garganta;URGENTE;1
+dor abdominal, vômitos, agulhas pins sensação nos dedos, agulhas pins sensação nos dedos dos pés, odor de alho na respiração, odor de alho nos tecidos do corpo, vermelhidão da pele, inchaço da pele, escurecimento da pele, lesão da verruga, manchas duras nas palmas das mãos, manchas duras nas solas dos pés, linhas brancas nas unhas, diarreia, formigamento da dormência na mão, formigamento da dormência nos pés, dormência;EMERGENCIA;2
+solavanco vermelho pequeno, solavanco macio doloroso, cistos, solavanco cheio de pus, vermelhidão em torno de erupções da pele, cicatrizes da pele;EMERGENCIA;2
+dormência, formigamento, sensação de queimação na mão, sensação de queimação nos pés, afiado na mão, afiado nos pés, sensibilidade;EMERGENCIA;2
+dor de cabeça intensa, visão borboletada;URGENTE;1
+dor na região inguinal, náuseas repetidas, dificuldade respiratória moderada;URGENTE;1
+curva das pernas curvadas para dentro;EMERGENCIA;2
+dor no peito, dificuldade respiratória leve;URGENTE;1
+olhos vermelhos aguados, sensação de olhos gritty, sensação de queimação de olhos;EMERGENCIA;2
+dor de mão, dor de colo, dor de garganta leve, nariz entupido, dor de dentes;NAO_URGENTE;0
+erupção cutânea em tronco, dor em músculos;URGENTE;1
+dificuldade de sufocamento, tosse persistente;URGENTE;1
+febre, dormência, formigamento em dedos mindinhos, anel;EMERGENCIA;2
+micção freqüente, súbita perda de consciência;URGENTE;1
+manchas escuras na pele;NAO_URGENTE;0
+febre, sentindo-se cansado, perda de peso indesejada, dor no peito;EMERGENCIA;2
+sensação de cansaço, dor no peito, frequência cardíaca rápida, flutter batendo no peito, sudorese, sensação de fiar;EMERGENCIA;2
+dor no pé, calcanhares inchados;URGENTE;1
+dor de garganta leve, cansaço moderado, coceira leve no tronco, dor no pescoço, dificuldade em alimentar;NAO_URGENTE;0
+nódulo na pele, nódulo no pescoço;EMERGENCIA;2
+dor no olho, dor nas pretas, dor no nariz;NAO_URGENTE;0
+lumps sob a pele, dor nos olhos, visão dupla, olhos vermelhos irritados inchados, dificuldade em mover os olhos, os olhos se destacam, drooping da pálpebra superior;EMERGENCIA;2
+dor de cabeça, náuseas e dor no estômago;NAO_URGENTE;0
+dor abdominal, vômitos, agulhas pins sensação nos dedos, agulhas pins sensação nos dedos dos pés, odor de alho na respiração, odor de alho nos tecidos do corpo, vermelhidão da pele, inchaço da pele, escurecimento da pele, lesão da verruga, manchas duras nas palmas das mãos, manchas duras nas solas dos pés, linhas brancas nas unhas;EMERGENCIA;2
+amortece ao redor do ânus, desconforto, dor na área anal, sangramento do ânus;EMERGENCIA;2
+sentindo-se cansado, ternura;EMERGENCIA;2
+sensação de cansaço, dor abdominal, perda de peso indesejada, diarreia;EMERGENCIA;2
+dor abdominal, cansaço extremo, pele amarelada, amarelamento dos brancos dos olhos, urina escura;EMERGENCIA;2
+dor na região perianal, dificuldade de defecação, sangramento nas fezes;URGENTE;1
+dor no pescoço, dor no ombro, dor no braço, dor persistente, tosse seca leve;NAO_URGENTE;0
+vermelhidão ocular, eye bloodshot, dor variando, desconforto, olhos lacrimosos lacrimejantes, coceira, corrimento;EMERGENCIA;2
+dor abdominal, vômitos, agulhas pins sensação nos dedos, agulhas pins sensação nos dedos dos pés, odor de alho na respiração, odor de alho nos tecidos do corpo, vermelhidão da pele, inchaço da pele, escurecimento da pele, lesão da verruga, manchas duras nas palmas das mãos, manchas duras nas solas dos pés, linhas brancas nas unhas, diarreia;EMERGENCIA;2
+dor no estômago, inchaço nas mãos, dor na perna, sensação de calor;NAO_URGENTE;0
+boca dolorida, um patch branco, vermelho na língua gengivas, forro da boca;EMERGENCIA;2
+nariz entupido, dor nas orelhas;NAO_URGENTE;0
+coceira leve na cabeça, pénais seca ou vermelha;NAO_URGENTE;0
+coceira generalizada, pele seca;NAO_URGENTE;0
+sentindo-se cansado, respiração de falta de ar, sentindo-se doente, sensação de ardor no peito, chest fullness, pressão no peito;EMERGENCIA;2
+febre, inchaço, sensação de cansaço, dor de cabeça, dor no peito, perna inchada;EMERGENCIA;2
+sensação de cansaço, dor abdominal, perda de peso indesejada, dificuldade para dormir, sensação de fiação, descoloração turva dos dedos, quebras de cabelo, queda de cabelo, corpo de cobertura de cabelo macio, dificuldade em passar fezes, pele seca, pele amarelada;EMERGENCIA;2
+dor de cabeça, perda de peso indesejada, nódulo no pescoço, hemorragias no nariz;EMERGENCIA;2
+inchaço da perna;EMERGENCIA;2
+vermelhidão dos olhos, sangue nos olhos, dor, desconforto, olhos lacrimosos lacrimejantes;EMERGENCIA;2
+dor na cabeça, cefaleia;NAO_URGENTE;0
+nódulo no estilo, inchaço no estilo;EMERGENCIA;2
+coceira intensa;URGENTE;1
+dificuldade para ingerir, dor na garganta;URGENTE;1
+erupção cutânea com coceira, manchas de couro;URGENTE;1
+pressão pélvica, dor lombar, bulging na vagina, pee vazamento, dor ao urinar, micção freqente, urina de sangue, dificuldade em passar fezes;NAO_URGENTE;0
+febre, falta de ar, sentindo-se cansado, dor abdominal, perda de peso indesejada, perda de apetite, sentindo-se doente, vômitos, tosse, assobio ao respirar, diarreia;EMERGENCIA;2
+dor nas costas, dor nas costas esquerda, dor nas costas direita, dor nas costas superiores;NAO_URGENTE;0
+sentindo-se cansado, perda de peso indesejada, urina de sangue, dor nas costas, dor ao urinar;EMERGENCIA;2
+febre, sangramento vaginal, micção dolorosa, dificuldade em passar fezes, diarreia, inchaço, fezes de sangue, calafrios, dor no quadril;EMERGENCIA;2
+manchas escuras na pele, tom de pele desigual, descoloração da pele, pele blotchy;NAO_URGENTE;0
+sentindo-se cansado, fortemente sustentado falsas crenças, vendo ouvir as coisas não estão lá, pensamento confuso, sentindo-se muito triste, perdendo o interesse, sentindo-se extremamente feliz, ser facilmente irritado, falta de movimento;EMERGENCIA;2
+dor abdominal, coceira na pele, erupção cutânea levantada, lábios inchados, rosto inchado, língua inchada, garganta inchada, partes inchadas do corpo;EMERGENCIA;2
+coceira leve em mãos e pés;NAO_URGENTE;0
+dor de garganta intensa, dificuldade de engolir;URGENTE;1
+dor no peito leve, falta de ar, dor nas costas, dor no braço direito, dor persistente;NAO_URGENTE;0
+febre, sensação de cansaço, dor abdominal, dor de garganta, pele amarelada, amarelo dos brancos dos olhos, visão turva, erupção cutânea;EMERGENCIA;2
+dor intensa na boca, manchas no couro cabeludo;URGENTE;1
+dor no ombro, desconforto piora à noite, dor no cotovelo;EMERGENCIA;2
+dor renal, hematúria, cálculos na bexiga;URGENTE;1
+cansaço, dor de garganta leve, nariz entupido, tosse seca;NAO_URGENTE;0
+dor abdominal leve, dor nas costas, dor no joelho, dificuldade em dormir, dor no pescoço;NAO_URGENTE;0
+perda de consciência, movimentos incontroláveis, olhando, mudanças emocionais repentinas, frequência cardíaca rápida, ondas de calor frio, dentes apertando, saliva vazando da boca, movimentos oculares anormais;EMERGENCIA;2
+tosse seca leve, cansaço, dor de garganta leve, nariz entupido;NAO_URGENTE;0
+dor no peito aguda, dificuldade em inspirar;URGENTE;1
+crises de asma moderada, tosse persistente, dificuldade respiratória;URGENTE;1
+dor no peito, falta de ar, freqência cardíaca rápida, sensação de tontura, sensação de rotação, sensação de formigamento dormentado instável, sudorese profusa, rubor repentino, calafrios, diarréia, sensação de perda de controle;NAO_URGENTE;0
+febre abdominal, dor abdominal, perda de peso indesejada, dor no peito, massa abdominal, alterar o movimento intestinal;EMERGENCIA;2
+dolorido na boca, um patch branco, vermelho na língua gengivas, forro da boca, nódulo no lábio, nódulo na boca, perda de peso indesejada, espessamento da gengiva, afrouxamento dos dentes;EMERGENCIA;2
+dor abdominal ligeira, dificuldade em passar fezes;NAO_URGENTE;0
+dor intensa no pescoço, dificuldade em falar, sensação de inchaço na garganta, fraqueza nas mãos, dores no ombro;URGENTE;1
+dor na cabeça, visão borrada, dificuldade de equilíbrio;URGENTE;1
+coceira leve, dor nas costas, dor abdominal leve, dor no peito leve, sensação de encharcamento nas membranas mucosas;NAO_URGENTE;0
+sensação de cansaço, erupção cutânea;EMERGENCIA;2
+dificuldades de linguagem, dificuldades de fala, desafios de habilidade motora;EMERGENCIA;2
+vômito recurrente, dor abdominal persistente;URGENTE;1
+febre, falta de ar, sensação de cansaço, dor abdominal, perda de peso indesejada, perda de apetite, sensação de doença, vómitos, tosse, assobiar ao respirar;EMERGENCIA;2
+dor no tronco, dores musculares, dificuldade de mobilidade;URGENTE;1
+febre, sensação de cansaço, dor abdominal, dor de garganta, pele amarelada, amarelecimento dos brancos dos olhos, visão turva, erupção cutânea, sensação de mal-estar geral;EMERGENCIA;2
+dor abdominal leve, sensação de gás no estômago, náusea leve;NAO_URGENTE;0
+dor no abdômen, dificuldade na defecação, vômitos claros;URGENTE;1
+dor nas costas, dor no quadril, dor na espinha dorsal;NAO_URGENTE;0
+sensação de seco garganta, dor de garganta leve, dor de cabeça fraca, nariz entupido, tosse seca;NAO_URGENTE;0
+dor no peito leve, falta de ar, dor nas costas, dor no braço, dor persistente, dor no ombro;NAO_URGENTE;0
+dor no peito, dor no peito leve, dor no peito aguda;NAO_URGENTE;0
+dor no ombro, desconforto piora à noite, dor no cotovelo, dor no quadril enquanto caminha, sensibilidade na região da virilha, inchaço do joelho;EMERGENCIA;2
+dor de colo, coceira, dor persistente no pescoço, dor de dentes, dificuldade em mastigar;NAO_URGENTE;0
+respiração falta de ar, dor no peito, sentir-se doente, vómitos, dor abdominal superior, dor nas costas, dor no pescoço, dor na mandíbula, dor no ombro, dor no braço;EMERGENCIA;2
+dor no joelho, dor no tornozelo;NAO_URGENTE;0
+dor abdominal, náusea recorrente, vômitos;URGENTE;1
+nariz entupido, tosse seca leve, dor de cabeça fraca, dor abdominal leve;NAO_URGENTE;0
+febre, falta de ar, dor de cabeça, perda de peso indesejada;EMERGENCIA;2
+comichão intensa, irritação da pele, erupção cutânea elevada, pequenas saliências, rash nos pés, rash nas pernas, rash nas nádegas, rash nas costas;EMERGENCIA;2
+dor de cabeça, visão baixa, sintomas neurológicos;URGENTE;1
+respiração de falta de ar, dor abdominal, dor no peito, sensação de fiação, frequência cardíaca rápida, dor nas costas, dificuldade em engolir, sentir-se cheio depois de não comer muito;EMERGENCIA;2
+erupção cutânea vermelha localizada, dor no peito, freqüência cardíaca rápida;URGENTE;1
+sensação de encharcamento nas membranas mucosas, coceira leve, nariz entupido, tosse;NAO_URGENTE;0
+nariz entupido, tosse seca;NAO_URGENTE;0
+dor de garganta leve, coceira leve no pescoço, dificuldade em dormir, dor no ombro, dor no braço;NAO_URGENTE;0
+urina de sangue, urina ardente, micção freqente, gânglios linfáticos da virilha inchada;URGENTE;1
+dor nas costas, dor no quadril, dor no fêmur, dor nas pernas;NAO_URGENTE;0
+perda de peso indesejada, urina de sangue, dor nas costas, perda de apetite;EMERGENCIA;2
+falta de ar, dor de cabeça, respiração profunda, perda de consciência, tosse;EMERGENCIA;2
+dor no ombro, dificuldade em movimentar o braço;URGENTE;1
+dificuldade para respirar, dificuldade em agitar a mão e peça;URGENTE;1
+perda de consciência, movimentos incontroláveis, olhando;EMERGENCIA;2
+dor de cabeça fraca, coceira leve, tosse seca leve, nariz entupido, dor no ouvido, dor abdominal leve;NAO_URGENTE;0
+dor no peito, falta de ar, freqência cardíaca rápida, sensação de tontura, sensação de girar, sensação de formigamento dormentado instável, sudorese profusa, rubor repentino, calafrios, diarréia, sensação de perda de controle, medo de morrer;EMERGENCIA;2
+perda de peso indesejada;EMERGENCIA;2
+dor de cabeça persistente, pressão na frente da cabeça;NAO_URGENTE;0
+dificuldade para respirar, dificuldade em agitar a mão;URGENTE;1
+sensação de coceira na boca, dificuldade em alimento, febre recorrente, dor na cabeça;URGENTE;1
+dor no peito, sentir-se doente, vómitos, dor abdominal superior, dor nas costas, dor no pescoço, dor na mandíbula, dor no ombro, dor no braço, dor persistente, queimadura cardíaca, dor epigástrica;NAO_URGENTE;0
+pernas curvadas para dentro, dor no joelho, dedos apontando para dentro, pés apontando para dentro;NAO_URGENTE;0
+dor no pescoço, dor muscular no pescoço, dor de cabeça leve;NAO_URGENTE;0
+dor no olho, dor nas pretas;NAO_URGENTE;0
+sudoração excessiva, dor no peito, dificuldade para respirar;URGENTE;1
+febre, tosse, cochilo som após tosse, nariz escorrendo, espirros, dores, olhos lacrimejantes, uma pausa na respiração;EMERGENCIA;2
+erupção cutânea com coceira, manchas, dificuldade de dormir;URGENTE;1
+coceira nas extremidades, erupção cutânea vermelha dispersa, dor no peito leve;URGENTE;1
+dor no pescoço, tontura, dificuldade de falar;URGENTE;1
+dificuldade em dormir, dor no peito aguda;URGENTE;1
+dor intensa no peito, fraqueza nas pernas, picos, dificuldade em dormir, dor na garganta;URGENTE;1
+sensação de calor ou frieza persistentes, dor muscular localizada;URGENTE;1
+dor no peito, dor no peito, sentir-se doente, vómitos, dor abdominal superior, dor nas costas, dor no pescoço, dor na mandíbula, dor no ombro, dor no braço, dor persistente, queimadura cardíaca, dor epigástrica, suor frio, sensação de rotação, sensação de tontura;NAO_URGENTE;0
+dor no ombro, dor na espinha, dor na nuca;NAO_URGENTE;0
+sensação de dor de cabeça, sensação de dor de cabeça;EMERGENCIA;2
+erupção cutânea elevada em rosa, irritação da pele;URGENTE;1
+cansaço extremo, febre, perda de peso indesejada, dor óssea, mancar, um sintoma psicótico por menos de um mês, inchaço área afetada, sensibilidade perto da área afetada, ossos fracos;EMERGENCIA;2
+dor nas costas, dor nas costas com dor de garganta;NAO_URGENTE;0
+sensação de cansaço, dor abdominal, perda de peso indesejada, dificuldade para dormir, sensação de fiação, descoloração turva dos dedos, quebras de cabelo, queda de cabelo, corpo de cobertura de cabelo macio, ausência de menstruação, dificuldade em passar fezes;NAO_URGENTE;0
+micção freqente, dificuldade em urinar, fluxo de urina fraco, drible após a micção;EMERGENCIA;2
+febre, tosse, zumbido quando respirar, respiração rápida;EMERGENCIA;2
+dor no ouvido, dor no joelho, náusea, coceira no rosto;NAO_URGENTE;0
+solavanco vermelho pequeno, solavanco macio doloroso, cistos, solavanco cheio de pus, vermelhidão em torno de erupções cutâneas, cicatrizes de pele, whiteheads;EMERGENCIA;2
+febre leve, tosse leve, sudorese leve, dor de garganta moderada, dor no ombro;NAO_URGENTE;0
+dor de músculos no pescoço, dor de músculos no tórax;NAO_URGENTE;0
+cansaço, nariz entupido, tosse seca leve, dor de garganta leve;NAO_URGENTE;0
+irritação do prepúcio, cabeça de irritação do pênis, sensibilidade, retenção urinária, inchaço, coceira manchas brancas no pênis;EMERGENCIA;2
+visão turva, dificuldade em reconhecer rostos familiares, linhas retas aparecem onduladas, ponto cego aparece no centro da visão, perda da visão central;EMERGENCIA;2
+dor na garganta, dificuldade em deglutir, febre alta, dificuldade em respirar, dificuldade em falar;URGENTE;1
+inchaço nas pernas, dor nas pernas, sensação de sensibilidade nas pernas, mudança na cor da pele na perna, sensação de calor na perna afetada;EMERGENCIA;2
+coceira leve, dor de garganta leve, tosse seca, cansaço, dor de cabeça fraca;NAO_URGENTE;0
+urina de cor escarlate, dor no fígado;URGENTE;1
+sensação de cansaço, ternura, articulações rígidas;EMERGENCIA;2
+dor na cabeça, visão distorcida, dificuldade em concentrar-se;URGENTE;1
+dor de dedos e sensibilidade no punho;NAO_URGENTE;0
+febre, sensação de cansaço;EMERGENCIA;2
+sentindo-se cansado, dor abdominal, perda de peso indesejada, dificuldade para dormir, sensação de girar, descoloração azulada dos dedos, queda de cabelo, queda de cabelo;EMERGENCIA;2
+sensação de cansaço, dor abdominal, perda de peso indesejada, problemas para dormir, sensação de fiação, descoloração em azul dos dedos;EMERGENCIA;2
+sangramento nasal persistente, dor de cabeça;URGENTE;1
+febre, falta de ar, sentir-se cansado, dor de cabeça, tosse, sensibilidade à luz, confusão, mudanças de comportamento;EMERGENCIA;2
+dor de cabeça fraca, nariz entupido, cansaço, dor de garganta leve;NAO_URGENTE;0
+febre, falta de ar, sensação de cansaço, dor abdominal, perda de peso indesejada, articulação dolorosa, palidez, hematomas erupções cutâneas inexplicadas, sangramento inexplicável, inchaço;EMERGENCIA;2
+dor persistente no peito, dificuldade de respirar;URGENTE;1
+erupção cutânea com manchas vermelhas, coceira intensa;URGENTE;1
+inchaço de gânglios linfáticos axilar, dor regional;URGENTE;1
+sensação de cansaço, coceira na pele erupção cutânea, rosto inchado, zumbido som quando respirar, comichão nos olhos, lábios inchados, garganta inchada, língua inchada;EMERGENCIA;2
+sensação de cansaço, dor de garganta leve, dor de cabeça fraca, coceira leve;NAO_URGENTE;0
+febre, sensação de cansaço, dor de cabeça;EMERGENCIA;2
+dor no colo do pescoço, dor na nuca;NAO_URGENTE;0
+dor intestinal recorrente, diarreia frequente, dor durante a passagem dos urétricos;URGENTE;1
+dor no ouvido, derrame auricular;URGENTE;1
+manchas escuras na pele, tom de pele desigual, descoloração da pele;NAO_URGENTE;0
+dor localizada no peito, dificuldade em respirar, dor na parte superior do peito;URGENTE;1
+dor na garganta, coceira em garganta;URGENTE;1
+inchaço dos testículos, dor persistente;URGENTE;1
+sensação de cansaço, respiração de falta de ar, dor no peito, sensação de girar, perda de consciência, bater no peito, frequência cardíaca rápida;EMERGENCIA;2
+erupção cutânea com coceira na pele, falta de ar;URGENTE;1
+pequenas manchas carecas no couro cabeludo, manchas no corpo;URGENTE;1
+febre, falta de ar, sentindo-se cansado, perda de peso indesejada, sentindo-se mal;EMERGENCIA;2
+respiração de falta de ar, dor no peito, sensação de fiação, perda de consciência, sensação de cansaço após a atividade, tornozelos inchados, pé inchado, ter menos capacidade de ser ativo, batimento cardíaco irregular;EMERGENCIA;2
+sensação de encharcamento nas membranas mucosas, dor nas costas, dor abdominal leve, tosse seca;NAO_URGENTE;0
+dor na mandíbula, coceira na boca;NAO_URGENTE;0
+sentindo-se cansado, perda de peso indesejada;EMERGENCIA;2
+dor na garganta, dificuldade em respirar, tontura, sensação de ardor na garganta, dificuldade em deglutir;URGENTE;1
+dor de cabeça fraca, coceira leve, sensação de encharcamento nas membranas mucosas, nariz entupido;NAO_URGENTE;0
+sangramento vaginal persistente, dor no útero;URGENTE;1
+tosse seca moderada, coceira leve;NAO_URGENTE;0
+sensação de dores no nariz, nariz entupido, secreção nasal excessiva;NAO_URGENTE;0
+vermelhidão da pele, inchaço da pele, vermelhidão dos olhos, sangue nos olhos;EMERGENCIA;2
+hemorragia nasal, dor de cabeça intensa;URGENTE;1
+torpor facial, visão dupla;URGENTE;1
+dor no pescoço, coceira no pescoço;URGENTE;1
+cansaço persistente, dor ligeira no pescoço, sensação de fraqueza;NAO_URGENTE;0
+dor no peito, dor no músculo do peito, dificuldade em realizar exercícios físicos, dificuldade em respirar;NAO_URGENTE;0
+micção urgente, sangramento rectal;URGENTE;1
+descascamento escamado, pele rachada entre os dedos dos pés, coceira especialmente logo após tirar meias de sapatos, patches, sensação de queimação nos pés, bolhas;NAO_URGENTE;0
+dor de colo, dor de cabeça fraca, nariz entupido, dificuldade em dormir, queimadura solar leve;NAO_URGENTE;0
+dor no peito, dor no peito aguda, dor na região torácica;NAO_URGENTE;0
+dor na base do polegar, inchaço base do polegar, dificuldade em segurar, dificuldade em beliscar, aderência do polegar;EMERGENCIA;2
+perda de audição temporária, dor no ouvido, dor na garganta;URGENTE;1
+sensação de cansaço, respiração de falta de ar, dor no peito, dor, fraqueza, dormência nas pernas, dormência nos braços, frequência cardíaca rápida;EMERGENCIA;2
+dor no tronco, inchaço de garganta;URGENTE;1
+inchaço da garganta, dificuldade de ingestão;URGENTE;1
+dor de cabeça fraca, nariz entupido, dor no peito fraca, dor abdominal leve;NAO_URGENTE;0
+sensação de tontura, dificuldade em manter a fala fluente;NAO_URGENTE;0
+dor de garganta, falta de ar, coceira na pele;NAO_URGENTE;0
+coceira na boca, dor de garganta leve;NAO_URGENTE;0
+dor no ombro, desconforto piora à noite, dor no cotovelo, dor no quadril enquanto caminha, sensibilidade na área da virilha;EMERGENCIA;2
+febre alta, dores no tronco, gânglios linfáticos inchados;URGENTE;1
+erupção cutânea vermelha em forma de círculo, dor na região perianal, febre alta;URGENTE;1
+suspiro de falta de ar, dor abdominal, língua inchada, garganta inchada, lábios inchados, inchaços vermelhos coceira, dificuldade em engolir, erupção cutânea vermelha, aperto no peito, cãibras, diarreia, sensação de desgraça, sensação de medo, vômito, zumbido som quando respirar;EMERGENCIA;2
+falta de ar, perda de consciência;EMERGENCIA;2
+visão dupla, dor de olhos, dor no pescoço;URGENTE;1
+sensação de cansaço, respiração de falta de ar, dor no peito, dor, fraqueza, dormência nas pernas, dormência nos braços, frequência cardíaca rápida, sensação de desmaio;EMERGENCIA;2
+dor durante a passagem de fezes, fezes de sangue;EMERGENCIA;2
+nariz entupido, tosse seca leve, coceira no rosto;NAO_URGENTE;0
+dor abdominal, dificuldade respiratória leve, dor nas costas, dificuldade em dormir;URGENTE;1
+dor nas costas, dor no peito leve, dor persistente, dor nas costelas;NAO_URGENTE;0
+sensação de cansaço, dor de cabeça, dor nas costas;EMERGENCIA;2
+dor de cabeça intensa, dificuldade em concentrar, fraqueza nas mãos, dificuldade para falar;URGENTE;1
+coceira no tronco, manchas de couro na pele;URGENTE;1
+dor nas costas, dor nas costas com espasmódios, dor nas costas com dor na coluna;NAO_URGENTE;0
+dor de garganta aguda, sibilância no tos, dor de garganta com dificuldade para ingerir;NAO_URGENTE;0
+dor de dente, sensibilidade dentária, dor ao comer, dor ao beber doce, dor ao beber quente, dor ao beber frio, buracos nos dentes, poços nos dentes, marrom, preto, manchas brancas em qualquer superfície de um dente, dor ao morder;EMERGENCIA;2
+erupção cutânea com coceira, blotchy;URGENTE;1
+respiração de falta de ar, dor abdominal, língua inchada, garganta inchada, lábios inchados, coceira inchaços vermelhos;EMERGENCIA;2
+vomito repetido, perda de visão temporária, dificuldade em andar, sensação de calor excessivo;URGENTE;1
+sensação de cansaço, dor no peito, frequência cardíaca rápida, flutter batendo no peito;EMERGENCIA;2
+dor nas costelas, dificuldade para ficar ereto;URGENTE;1
+dor abdominal recorrente, diarreia com sangue, dores na região genital, dor na espinha, inchaço nas pernas;URGENTE;1
+coceira leve na pele, dor na região sacral, dor no pé, dor nas costas, dor na cabeça, dificuldade em respirar, queixume;NAO_URGENTE;0
+sentindo-se cansado, respiração de falta de ar, dor no peito, suor frio, sentindo-se doente, dor se espalhando para os dentes da mandíbula do ombro, sensação de girar, frequência cardíaca rápida;EMERGENCIA;2
+pele rachada seca, erupção cutânea com coceira, inchaço da pele, pequenos inchaços levantados, exsudação, crostas, pele espessa;EMERGENCIA;2
+dor persistente na mandíbula, dor no couro cabeludo;URGENTE;1
+olhos vermelhos aquosos, sensação de olhos arenosos, sensação de queimação dos olhos, pálpebras parecem oleosas, pálpebras com coceira, pálpebras vermelhas, descamação da pele ao redor dos olhos, cílios crocados;EMERGENCIA;2
+perda de consciência, movimentos incontroláveis, olhando, mudanças emocionais repentinas, frequência cardíaca rápida, ondas de calor frio, dentes apertando, saliva vazando da boca, movimentos oculares anormais, perda da bexiga, controle do intestino da perda, grunhidos;EMERGENCIA;2
+dor abdominal, cansaço extremo, pele amarelada, amarelecimento dos brancos dos olhos, urina escura, fezes de cor pálida ou cinza, acúmulo de líquidos na barriga, sangramento retal, vômitos no sangue, confusão, articulação dolorosa, sintomas de gripe;EMERGENCIA;2
+dor nas costelas, dificuldade em tosse, dificuldade em respirar profundamente;NAO_URGENTE;0
+coceira leve, sensação de cansaço, dor de cabeça fraca, nariz entupido, dor abdominal leve;NAO_URGENTE;0
+bolhas na boca, bolhas na pele;EMERGENCIA;2
+corte profundo na mão, sangramento abundante, dor persistente;URGENTE;1
+diminuição da atividade, dormir demais;EMERGENCIA;2
+nariz entupido, dor de cabeça fraca, dificuldade em dormir;NAO_URGENTE;0
+febre, sentindo-se cansado, dor de cabeça, perda de cabelo, perda de peso, depressão, nódulos duros, espessamento de tendões nas mãos, aborto espontâneo frequente, dedos frios, dormência, dedos dos pés, dedos inchados, mão inchada;NAO_URGENTE;0
+febre, dor de cabeça, dificuldade em mover o pescoço, sensibilidade à luz, sensação de irritação;EMERGENCIA;2
+cansaço sem causa, dificuldade para dormir;NAO_URGENTE;0
+dor nas costas recorrente, dor nos ombros;URGENTE;1
+falta de ar, dificuldade respiratória intensa, dor no peito, inchaço nas mãos, dor no colo;URGENTE;1
+dor torácica aguda, tosse frequente, frieza, sudorese intenso;URGENTE;1
+dificuldade em respirar, coração que batia rápido;URGENTE;1
+dor abdominal intensa, náusea persistente;URGENTE;1
+sensação de seco garganta, dor de garganta leve, dor de cabeça fraca, dor nas costas, nariz entupido;NAO_URGENTE;0
+sensação de cansaço, dor abdominal, perda de peso indesejada, dificuldade para dormir, sensação de fiação, descoloração turva dos dedos, queda de cabelo, queda de cabelo, queda de cabelo, queda de cabelo, corpo macio, dificuldade em passar fezes, pele seca, pele amarelada, intolerância ao frio, batimento cardíaco irregular, pressão arterial baixa, sensação de sede, tonturas, urina escura;NAO_URGENTE;0
+dificuldade na deglutição, dor de garganta alongada;URGENTE;1
+sangue no fígado, dor abdominal superior, náuseas, vômitos;URGENTE;1
+dor de garganta alongada, dificuldade de degelar, tontura, dores musculares, febre;URGENTE;1
+dor nas costas, tontura com vômito;URGENTE;1
+escroto inchado;EMERGENCIA;2
+febre, sensação de doença, vómitos, plenitude abdominal;EMERGENCIA;2
+respiração de falta de ar, dor abdominal, dor no peito, sensação de fiação, frequência cardíaca rápida, dor nas costas, dificuldade em engolir;EMERGENCIA;2
+descarga vaginal anormal, detecção entre períodos menstruais, sangramento após o sexo, sangramento menstrual mais pesado dura mais do que o habitual;EMERGENCIA;2
+manchas escuras na pele, tom de pele desigual;NAO_URGENTE;0
+febre, sentir-se doente, vômitos, dor abdominal superior direita, pele amarelada, amarelecimento dos brancos dos olhos, fezes coloridas de argila, coceira, perda de apetite;EMERGENCIA;2
+dor nas mãos, dor no dedo, calafrios;NAO_URGENTE;0
+dor na garganta, tosse persistente, dificuldade respiratória, perda de apetite, falta de ar;URGENTE;1
+sentindo-se cansado, perda de peso indesejada, sangramento entre períodos, sangramento incomum após a menopausa, sexo dor, dificuldade com movimentos intestinais, dificuldade em movimentos da bexiga, sangramento após o sexo, corrimento vaginal com mau cheiro, desconforto abdominal, dor nas costas, dor pélvica, perda de apetite;EMERGENCIA;2
+dor durante a passagem dos uréteres, hematúria;URGENTE;1
+febre alta, dor abdominal persistente;URGENTE;1
+dor de garganta leve, coceira leve, dor de cabeça fraca, dor abdominal leve;NAO_URGENTE;0
+urina clara e escassa, inchaço no pénis;URGENTE;1
+dificuldade respiratória intensa, febre alta, dor no peito;URGENTE;1
+dor no ouvido, dificuldade para ouvir, dificuldade respiratória moderada, tosse;URGENTE;1
+febre leve, tosse leve, dor de garganta leve, dificuldade em respirar, sudorese leve;NAO_URGENTE;0
+falta de ar, dor de cabeça, sentir-se doente;NAO_URGENTE;0
+cansaço moderado, perda de apetite, dificuldade em ficar concentrado;NAO_URGENTE;0
+sensação de cansaço, falta de ar, dor no peito;NAO_URGENTE;0
+dor de garganta leve, tosse leve, cansaço leve;NAO_URGENTE;0
+pequenas manchas carecas no couro cabeludo, patches no corpo, patches podem ficar maiores, crescer juntos em ponto careca;EMERGENCIA;2
+coceira intensa, inflamação dos olhos, secreção nasal pútrida;URGENTE;1
+dor intensa no abdômen, náusea, vômitos repetidos;URGENTE;1
+dor de garganta leve, cansaço, nariz entupido, tosse seca, dor de cabeça fraca;NAO_URGENTE;0
+sintomas de asma moderada, dificuldade em caminhar, dificuldade respiratória, dor no peito;URGENTE;1
+dor de cabeça fraca, coceira leve, dor de garganta leve, dor abdominal leve;NAO_URGENTE;0
+coceira generalizada, dificuldade respiratória leve;URGENTE;1
+dor na garganta, dor de garganta seca;NAO_URGENTE;0
+suspiro de falta de ar, lábios inchados, garganta inchada, língua inchada, rosto inchado, inchaço do rosto, inchaço inchaço vermelho, tosse, aperto no peito, som de assobio ao respirar;EMERGENCIA;2
+dor no pescoço, dor no ombro esquerdo, dor no ombro direito, dor no colo esquerdo;NAO_URGENTE;0
+dor na boca, dificuldade em mastigar, dificuldade em falar, inchaço no rosto, falta de apetite;URGENTE;1
+dificuldade em falar, linguagem incoerente;URGENTE;1
+dor de garganta aguda, dor de garganta com coceira;NAO_URGENTE;0
+dor de dente, sensibilidade dentária, dor ao comer, dor ao beber doce, dor ao beber doce, dor ao beber quente, dor ao beber frio, buracos nos dentes, buracos nos dentes, manchas marrons, pretas, brancas em qualquer superfície de um dente;EMERGENCIA;2
+sentindo-se cansado, dor de cabeça, perda de cabelo, perda de peso, depressão, nódulos duros, espessamento de tendões nas mãos;EMERGENCIA;2
+visão dupla, sensação de falta de ar;URGENTE;1
+olhos vermelhos aquosos, sensação de olhos arenosos, sensação de queimação dos olhos, pálpebras parecem oleosas, pálpebras com coceira, pálpebras vermelhas, descamação da pele ao redor dos olhos, cílios crocantes, aderência das pálpebras, piscar freqente, sensibilidade à luz, visão turva;EMERGENCIA;2
+dor no ombro;EMERGENCIA;2
+febre ocular, dor ocular;URGENTE;1
+dor no ombro esquerdo, dor nas costas, coceira, dor no peito leve, nariz entupido, dor no braço esquerdo;NAO_URGENTE;0
+falta de ar, dor de cabeça, respiração profunda, perda de consciência;EMERGENCIA;2
+dor de cabeça, dor no pescoço;NAO_URGENTE;0
+diarrea repetida, náuseas, vômitos, abdômen doloroso;URGENTE;1
+dor no peito leve, dor nas costas, dor no ombro, dor no braço, dor persistente, dificuldade em passar fezes;NAO_URGENTE;0
+dificuldade em dormir devido a dor no couro cabeludo;URGENTE;1
+dor de garganta leve, cansaço, tosse seca leve, dor abdominal leve, dor no ouvido, nariz entupido;NAO_URGENTE;0
+congestão nasal intensa, dificuldade respiratória moderada;URGENTE;1
+coceira generalizada, dor de cabeça fraca, nariz entupido;NAO_URGENTE;0
+dor no abdômen superior, dificuldade de urinar, hematúria;URGENTE;1
+inchaço nas mucosas da boca, dificuldade na deglutição;URGENTE;1
+dor no dedo, dificuldade em falar, dificuldade em masticar, dor no olho;NAO_URGENTE;0
+cara pálida, dor abdominal intermitente;URGENTE;1
+dolorosa dor na cabeça, dificuldade na articulação, visão borboletada;URGENTE;1
+perda de consciência, movimentos incontroláveis, olhando, mudanças emocionais repentinas, frequência cardíaca rápida, ondas de calor frio, dentes apertando;EMERGENCIA;2
+sensação de cansaço, descoloração amarelada dos dedos, dificuldade em manter o equilíbrio;NAO_URGENTE;0
+perda de peso indesejada, dor de boca, dor de boca persistente, espessamento de saliência nos lábios, boca, bochecha, mancha vermelha branca nas gengivas, língua, tonsila, revestimento da boca, dor de garganta;EMERGENCIA;2
+dor abdominal, sentir-se doente;URGENTE;1
+respiração de falta de ar, dor no peito, sensação de girar;EMERGENCIA;2
+sensação de cansaço, dor abdominal, perda de peso indesejada, dificuldade para dormir, sensação de fiação, descoloração turva dos dedos, quebras de cabelo, queda de cabelo, corpo de cobertura de cabelo macio, dificuldade em passar fezes, pele seca, pele amarelada, intolerância a batimentos cardíacos frios e irregulares;EMERGENCIA;2
+sensação de cansaço, falta de ar;EMERGENCIA;2
+sensação de cansaço, dor no peito, dor nas costas, dor no ombro, dor no braço, dor persistente, dor no joelho, dor no pescoço;NAO_URGENTE;0
+pequeno solavanco vermelho;URGENTE;1
+tontura com dificuldade de equilíbrio, vômito recurrente;URGENTE;1
+suspiro de falta de ar, lábios inchados, garganta inchada, língua inchada, rosto inchado;EMERGENCIA;2
+dor no nariz, coceira leve no rosto, visão borrada, dor de garganta suave, tosse seca leve, dor de fígado, cansaço após exercício, dor no ombro, coceira no pescoço, dor persistente no peito, nariz enchido, dor no braço, dor no pescoço, dor persistente na cabeça, sensação de calor no corpo;NAO_URGENTE;0
+falta de ar, dor de cabeça, respiração profunda, perda de consciência, tosse, raspy, voz rouca;EMERGENCIA;2
+dor no peito leve, falta de ar, dor na mandíbula, dor persistente, sensação de formigamento;NAO_URGENTE;0
+febre, sentindo-se cansado, perda de peso indesejada, pele amarelada, amarelo dos brancos dos olhos, pele com coceira intensa, fezes de cor branca, lado direito dor abdominal, sudores noturnos, urina escura;EMERGENCIA;2
+dor torácica intensa, dificuldade respiratória aguda;URGENTE;1
+dor nas costelas, tosse, febre alta, dores no peito, dores no ombro;URGENTE;1
+dor no ouvido, perda de audição, dor no pescoço;URGENTE;1
+pequeno inchaço vermelho, doloroso inchaço concurso, cistos;URGENTE;1
+dor no peito, dificuldade em respirar profunda, falta de ar;URGENTE;1
+dor no ombro, espasmos musculares intensos, sensação de formigamento;URGENTE;1
+dor no braço superior, sensação de pingência no braço;NAO_URGENTE;0
+respiração de falta de ar, dor abdominal, dor no peito, sensação de girar;EMERGENCIA;2
+febre abdominal, dor abdominal, perda de peso indesejada, dor no peito, massa abdominal, alterar o movimento intestinal, assobiar o som quando respirar, dores de pálpebras;EMERGENCIA;2
+dor durante a passagem de fezes, fezes de sangue, rachadura anal;EMERGENCIA;2
+sentindo-se cansado, respiração de falta de ar, dor no peito, suor frio, sentir-se doente, dor se espalhando para os dentes da mandíbula do ombro, sensação de girar, freqência cardíaca rápida, perda de consciência;EMERGENCIA;2
+febre, dormência, formigamento em mindinho, dedos do anel, dor no dedo mindinho, dor no dedo do anel;EMERGENCIA;2
+dor na região genital, disfunção erétil;URGENTE;1
+sentir-se cansado, comer muito de uma vez, vômitos, visitas frequentes ao banheiro;EMERGENCIA;2
+suspiro de falta de ar, lábios inchados, garganta inchada, língua inchada, língua inchada, rosto inchado, inchaço do rosto, inchaços vermelhos, tosse, aperto no peito, som de assobio ao respirar, dificuldade em engolir, sensação de desmaio;EMERGENCIA;2
+febre, tosse, zumbido ao respirar;EMERGENCIA;2
+dor no estômago, náuseas recurrentes;URGENTE;1
+sentindo-se cansado, dor no peito, frequência cardíaca rápida, flutter batendo no peito, suar, sensação de girar, respiração de falta;EMERGENCIA;2
+dor no peito intensa, dificuldade respiratória leve, dores musculares;URGENTE;1
+vermelhidão ocular, sangue ocular, dor variando, desconforto, olhos lacrimosos lacrimosos, coceira, corrimento, sensibilidade à luz, visão turva, cegueira, irritação ocular, mancha branca cinzenta na córnea;EMERGENCIA;2
+respiração de falta de ar, dor no peito, sensação de fiação, falta de energia, frequência cardíaca rápida, pulso rápido;EMERGENCIA;2
+coceira na região do ombro, dor no joelho, dor de tendo, dor de estômago leve, náusea, diarreia leve, dor de costas, dores musculares esparsas;NAO_URGENTE;0
+nariz entupido, dor de garganta leve, dor no braço, dificuldade em dormir, pele gorda no rosto;NAO_URGENTE;0
+dor no couro cabelo, dor nas costas, dificuldade em manter postura;NAO_URGENTE;0
+febre, cansaço extremo, falta de ar;EMERGENCIA;2
+dor nas costelas e falta de apetite;NAO_URGENTE;0
+dor no peito, dificuldade de respirar, sudorese excessiva;URGENTE;1
+pulso fraco, perda de sensibilidade nas mãos;URGENTE;1
+dor de cabeça intensa, vômito repetido;URGENTE;1
+coceira leve, dor de garganta, cansaço, falta de ar, dor no peito, dor nas costas, dor no ombro, dor persistente, nariz entupido;NAO_URGENTE;0
+dor faringite, dor muscular localizada, dor de garganta, cansaço, coceira leve na pele, dor de cabeça leve, dor no couro cabelo, nariz entupido, tosse seca leve, dor no ombro, dor no braço, dor nas costas, dor persistente leve, dor epigástrica, dor no pé;NAO_URGENTE;0
+dor em toda a boca, dificuldade em mastigar;URGENTE;1
+inchaço do membro inferior, dor intolerável;URGENTE;1
+pressão pélvica, dor lombar, bulging na vagina, pee vazamento, dor ao urinar, micção freqente, urina de sangue;NAO_URGENTE;0
+dor de garganta leve, tosse seca, nariz entupido, coceira leve, cansaço leve, dor de cabeça leve, dificuldade de respiração leve, sensação de prurido na pele, dor muscular leve, dificuldade para dormir, baixa freqüência cardíaca, dor no pescoço, dor no ombro, sensação de dores musculares esparsas;NAO_URGENTE;0
+sentindo-se cansado, comer muito de uma vez, vômitos, visitas frequentes ao banheiro, sentindo-se triste, sentindo-se sem esperança;EMERGENCIA;2
+dor no peito, dificuldade em respirar, dor de cabeça, náusea, dor no estômago, dor nas costas, tosse seca, dor de garganta;NAO_URGENTE;0
+febre, dor de cabeça, dor abdominal, perda de peso indesejada, sensação de doença, vômitos, diarreia aquosa, sensação de sede, sensação de cansaço, sensação de tontura, urina escura;EMERGENCIA;2
+dor de garganta, dificuldade em deglutir, febre alta, sensação de ardor na garganta;URGENTE;1
+dor no peito leve, falta de ar, dor nas costas, dor no braço esquerdo, dor persistente;NAO_URGENTE;0
+dor no ombro, cansaço extenso, dificuldade respiratória leve;URGENTE;1
+dor no peito, dificuldade respiratória intensa;URGENTE;1
+dificuldade respiratória, espasmos torácicos;URGENTE;1
+dor de cabeça fraca, dor de olho, nariz entupido, dor de mão, dificuldade em mastigar;NAO_URGENTE;0
+sentir-se cansado, manter crenças falsas;EMERGENCIA;2
+dor de garganta aguda, tosse seca;URGENTE;1
+febre, dor abdominal, sentir-se doente, vómitos, alterações de cor na área dolorida, mau cheiro dolorido, comichão, estourar som quando esfregar a área dolorida, calafrios, frequência cardíaca rápida, pressão arterial baixa, confusão, baixa energia;EMERGENCIA;2
+dor abdominal persistente, diarreia recorrente;URGENTE;1
+dor na região pélvica, dificuldade em urinar;URGENTE;1
+sentindo-se cansado, respiração de falta de ar, sentindo-se doente, sensação de queimação no peito, chest fullness, pressão no peito, esprememento, dor no ombro, dor nas costas, sensação de fiação;EMERGENCIA;2
+dor de cabeça repetitiva, dor de cabeça com cansaço;NAO_URGENTE;0
+lumps sob a pele, dor nos olhos, visão dupla, olhos vermelhos inchados irritados, dificuldade em mover os olhos;EMERGENCIA;2
+pressão pélvica, dor lombar, bulging na vagina;NAO_URGENTE;0
+tosse seca, dor no braço, dificuldade em dormir, dor na mão;NAO_URGENTE;0
+sensação de cansaço, coceira na pele erupção cutânea, rosto inchado, zumbido som quando respirar, coceira nos olhos;EMERGENCIA;2
+pressão pélvica, dor lombar, bulging na vagina, vazamento de pee, dor ao urinar;NAO_URGENTE;0
+dificuldade de respiração, tosse recurrente;URGENTE;1
+dor na cabeça intensa, vômito, dificuldade de equilíbrio;URGENTE;1
+dor no peito, sentir-se doente, vómitos, dor abdominal superior, dor nas costas, dor no pescoço, dor na mandíbula, dor no ombro, dor no braço, dor persistente, queimadura cardíaca;NAO_URGENTE;0
+dor no joelho, dor nas costas, dor no ombro, dor no braço, dor persistente, dor no pescoço, dor no peito, cansaço;NAO_URGENTE;0
+febre, dor de cabeça, dor abdominal;EMERGENCIA;2
+nariz entupido, dor de garganta leve, dor muscular, cansaço, dor na mandíbula, sensação de calor, dor no ombro, dor no braço;NAO_URGENTE;0
+respiração de falta de ar, dor abdominal, sensação de mal-estar;NAO_URGENTE;0
+dor no ombro, fraqueza no ombro;EMERGENCIA;2
+sensação de cansaço, coceira na pele erupção cutânea, rosto inchado, zumbido som quando respirar;EMERGENCIA;2
+olhos vermelhos aquosos, sensação de olhos arenosos, sensação de queimação dos olhos, pálpebras parecem oleosas, pálpebras com coceira, pálpebras vermelhas, descamação da pele ao redor dos olhos, cílios crocantes, pálpebras coladas, piscando freqente, sensibilidade à luz;EMERGENCIA;2
+dificuldade na deglutição, cansaço extenso;URGENTE;1
+dor no abdômen, náusea, vômitos;URGENTE;1
+erupção cutânea com coceira na face, dor facial;URGENTE;1
+febre, sentindo-se cansado, dor de cabeça, perda de cabelo, perda de peso, depressão, caroços duros, espessamento de tendões nas mãos, aborto espontâneo frequente, frio, dedos dormentes, dedos dos pés;NAO_URGENTE;0
+febre recidivante, dor de garganta, falta de ar, coriza, tosse seca;URGENTE;1
+sensibilidade à luz, visão turva, visão dupla;EMERGENCIA;2
+dor no peito, sentir-se doente, vómitos, dor abdominal superior, dor nas costas, dor no pescoço, dor na mandíbula, dor no ombro, dor no braço, dor persistente, queimadura cardíaca, dor epigástrica, suor frio;NAO_URGENTE;0
+sangramento nasal, dor nas gengivas;URGENTE;1
+febre, sensação de cansaço, dor de cabeça, perda de cabelo, perda de peso, depressão;EMERGENCIA;2
+dor abdominal constante, diarreia com sangue, dores no baço, dor nas costelas, inchaço na região abdominal;URGENTE;1
+dor nas articulações, coceira em algum membro;URGENTE;1
+dor no peito, respiração de falta de ar, freqência cardíaca rápida, sensação de tontura, sensação de girar, sensação de formigamento dormentado instável, sudorese profusa;NAO_URGENTE;0
+perda de consciência, movimentos incontroláveis, olhando, mudanças emocionais repentinas, frequência cardíaca rápida, ondas de calor frio, dentes apertando, saliva vazando da boca, movimentos oculares anormais, perda da bexiga, controle do intestino da perda, grunhidos, cheirando;EMERGENCIA;2
+perda de consciência, movimentos incontroláveis, olhando, mudanças emocionais repentinas, frequência cardíaca rápida, ondas de calor frio, dentes apertando, saliva vazando da boca, movimentos oculares anormais, perda da bexiga, controle do intestino da perda;EMERGENCIA;2
+dor no peito leve, nariz entupido, dor de garganta leve, cansaço, dor no ombro esquerdo;NAO_URGENTE;0
+dolor de cabeça intenso, náuseas recurrentes;URGENTE;1
+dolorosa ferida na perna;URGENTE;1
+febre, falta de ar, dor de garganta, respiração áspera, dificuldade em engolir, voz abafada, condição de risco de vida;EMERGENCIA;2
+dor na região abdominal superior, náusea, vômito, febre moderada;URGENTE;1
+erupção cutânea em forma de manchas vermelhas, dificuldade respiratória leve, dor no estômago, gânglios linfáticos do pescoço inchados;URGENTE;1
+erupção cutânea roxa, coceira, vermelhidão da pele;URGENTE;1
+febre, dor no peito;EMERGENCIA;2
+dificuldade para respirar, tosse seca, coriza;URGENTE;1
+aprofundando a voz;EMERGENCIA;2
+sentindo-se cansado, respiração de falta de ar, sentindo-se doente, sensação de ardor no peito, chest fullness, pressão no peito, esprememento, dor no ombro, dor nas costas;EMERGENCIA;2
+febre, tosse;EMERGENCIA;2
+sensação de cansaço, dor de cabeça, alterações de humor, sentir-se deprimido, irritável;NAO_URGENTE;0
+sentindo-se cansado, respiração de falta de ar, sentindo-se doente, sensação de ardor no peito, chest fullness;EMERGENCIA;2
+cabeça dificuldades de movimento;EMERGENCIA;2
+febre, sensação de cansaço, dor abdominal, perda de peso indesejada, diarreia, fezes de sangue, dor na boca, apetite perdido;EMERGENCIA;2
+dor nas costelas e tosse produzindo espuma;NAO_URGENTE;0
+dor abdominal, vômitos, pins agulhas sensação nos dedos, pins agulhas sensação nos dedos dos pés;EMERGENCIA;2
+respiração de falta, dor abdominal, dor no peito, sensação de fiação, frequência cardíaca rápida, dor nas costas, dificuldade em engolir, sentindo-se cheio depois de não comer muito, dor no pescoço, mandíbula dor, estômago dor, ombro dor, uma sensação pulsante latejante em sua área do estômago;NAO_URGENTE;0
+dor de garganta leve, dor de cabeça fraca, sensação de cansaço, dor abdominal leve;NAO_URGENTE;0
+coceira leve, dor de garganta leve, dor de cabeça fraca, nariz entupido, dor nas costas;NAO_URGENTE;0
+dor no peito aguda, fraqueza nas pernas, dificuldade respiratória moderada;URGENTE;1
+tosse seca e dor no peito;NAO_URGENTE;0
+sensação de falta de ar, coração bate forte;URGENTE;1
+dor nas costas, dificuldade respiratória moderada, dor no pescoço, tontura, sudoração excessiva;URGENTE;1
+dor no olho com fotofobia, conjuntivite, cefaleia;URGENTE;1
+dor nas costas, dificuldade em respirar;URGENTE;1
+falta de ar, dor de cabeça, respiração profunda, perda de consciência, tosse, raspy, voz rouca, incapacidade de falar, descoloração labial;EMERGENCIA;2
+prurido na pele, erupção cutânea inflamada vermelha;URGENTE;1
+dor no peito, dificuldade em engolir;URGENTE;1
+dor de garganta intensa, suor excessivo, tosse seca;URGENTE;1
+dor de garganta leve, coceira leve, cansaço, dor de cabeça, dor nas costas, dor no peito, dor persistente, nariz entupido, dor no braço;NAO_URGENTE;0
+dor no fêmur, dor no joelho;NAO_URGENTE;0
+parando o movimento fetal, parando chutes, spotting, sangramento, incapaz de ouvir o batimento cardíaco do bebê;EMERGENCIA;2
+dor no peito, dormência súbita, fraqueza no braço, fraqueza nas pernas, fala arrastada;EMERGENCIA;2
+dor abdominal leve, sentir-se mais farto do que o normal;NAO_URGENTE;0
+dor de garganta leve, nariz entupido, tosse seca, cansaço;NAO_URGENTE;0
+dor abdominal, vômitos, agulhas pins sensação nos dedos, agulhas pins sensação nos dedos dos pés, odor de alho na respiração, odor de alho nos tecidos do corpo, vermelhidão da pele, inchaço da pele, escurecimento da pele;EMERGENCIA;2
+erupção cutânea vermelha esparsa, coceira, dor durante a passagem dos urinos;URGENTE;1
+febre, febre de falta de ar, sensação de cansaço, dor abdominal, perda de peso indesejada, articulação dolorosa, palidez, rupturas cutâneas inexplicadas, sangramento inexplicável, inchaço, saltiços, dor óssea;EMERGENCIA;2
+febre, sensação de cansaço, dor abdominal, dor de garganta, dor de garganta, pele amarelada, amarelecimento dos brancos dos olhos, visão turva, erupção cutânea, sensação de mal-estar geral, glândulas inchadas, apetite perdido, dor muscular;EMERGENCIA;2
+sentindo-se cansado, perda de peso indesejada, sangramento entre períodos, sangramento incomum após a menopausa, sexo dor;EMERGENCIA;2
+dor na região do flanco, sangramento vaginal, dor abdominal persistente, náuseas, dificuldade em urinar;URGENTE;1
+dor no peito, dor no peito, sentir-se doente, vómitos, dor abdominal superior, dor nas costas, dor no pescoço, dor na mandíbula, dor no ombro, dor no braço, dor persistente, queimadura cardíaca, dor epigástrica, suor frio, sensação de rotação, sensação de tontura, fraqueza;NAO_URGENTE;0
+dor em ambos os ombros, dificuldade em tocar teclado;URGENTE;1
+febre, falta de ar, sensação de cansaço, dor abdominal;EMERGENCIA;2
+dor de garganta leve, febre baixa, coceira na cabeça;NAO_URGENTE;0
+sensação de calor, dor na cabeça, cefaleia, dor muscular, dor no ombro, dor no braço, sensação de garganta seca, tosse seca leve;NAO_URGENTE;0
+visão borrada, dor ocular, fotofobia;URGENTE;1
+dor de garganta persistente, coceira leve na garganta, dor de fígado, cansaço, dor de cabeça, nariz entupido, dificuldade na deglutição;NAO_URGENTE;0
+dor no pescoço, dor no ombro, dor no braço, dor persistente, nariz entupido;NAO_URGENTE;0
+perda de peso indesejada, sores;EMERGENCIA;2
+dor na costela, dispneia, dificuldade em tosse, expectoração;URGENTE;1
+dificuldade respiratória moderada, tos seca persistente;URGENTE;1
+dor no peito, dor no peito, sentir-se doente, vómitos, dor abdominal superior, dor nas costas, dor no pescoço, dor na mandíbula, dor no ombro, dor no braço, dor persistente;EMERGENCIA;2
+brown bump, black bump;EMERGENCIA;2
+dor na garganta, sibilhanços no tórax;URGENTE;1
+feridas dolorosas na boca, centro amarelo dolorido;EMERGENCIA;2
+dor persistente na mandíbula, coceira na boca;URGENTE;1
+dor na garganta, dificuldade de degelar;URGENTE;1
+febre, dor de cabeça, corrimento nasal;NAO_URGENTE;0
+priching anal;NAO_URGENTE;0
+vermelhidão dos olhos, sangue nos olhos, dor, desconforto;EMERGENCIA;2
+sensação de cansaço, fraqueza, dor abdominal;EMERGENCIA;2
+dolorosa irritação ocular, dor no couro cabeludo, hiperextensão do pulso;URGENTE;1
+coceira intensa em região genital, disuria;URGENTE;1
+dor muscular generalizada, sintomas de gripe intensos;URGENTE;1
+sentindo-se cansado, sentindo-se cansado, comer muito de uma vez, vômitos, visitas frequentes ao banheiro, sentindo-se triste, sentindo-se sem esperança, dor de garganta, dentes ruins, mudanças de humor, problemas para dormir;EMERGENCIA;2
+dor nas costas, dificuldade respiratória moderada, dificuldade em caminhar, tontura, sudoração excessiva;URGENTE;1
+respiração de falta de ar;EMERGENCIA;2
+lumps sob a pele, dor nos olhos, visão dupla, olhos vermelhos inchados irritados, dificuldade em mover os olhos, os olhos se destacam, drooping da pálpebra superior, visão turva;EMERGENCIA;2
+dor na garganta, coceira nas mãos e pés, dor nas costas, tontura, erupção cutânea vermelha com escamação, cefaleia recorrente, inchaço da garganta, dor na garganta ao mastigar;URGENTE;1
+cansaço extremo, febre, perda de peso indesejada, dor óssea, mancar;EMERGENCIA;2
+dor no peito, respiração de falta de ar, freqência cardíaca rápida, sensação de tontura, sensação de girar;NAO_URGENTE;0
+coceira leve, dor de garganta leve, dor no peito fraca, dor abdominal leve;NAO_URGENTE;0
+dor nas costas laterais, dificuldade em mover-se;URGENTE;1
+dor de dor nas costas, dores nas costas com calor, dores nas costas com pus;NAO_URGENTE;0
+mal-estar geral, dor de garganta leve, cansaço, tosse seca, nariz entupido, queimaduras nas palmas das mãos, visão turbida, dor persistente no pescoço, dor nas costas, pele manchada, dificuldade em ingerir alimentos, pélos finos na pele, dor muscular localizada no quadril, dor nas pernas, dor na cabeça, dor no ombro;NAO_URGENTE;0
+dor nas costas, dificuldade em expirar, taquipneia;URGENTE;1
+sentindo-se cansado, respiração de falta de ar, dor no peito, sensação de girar, perda de consciência, batendo no peito, frequência cardíaca rápida, ansiedade, suor;NAO_URGENTE;0
+dor renal intensa, hematúria persistente;URGENTE;1
+coceira leve, dor de garganta, cansaço, falta de ar, dor nas costas, dor no peito, dor persistente, nariz entupido, dor no ombro;NAO_URGENTE;0
+febre leve, cansaço, coceira no pescoço, nariz entupido, tosse leve;NAO_URGENTE;0
+febre, cansaço extremo, falta de ar, perda de peso indesejada;EMERGENCIA;2
+dor no ombro, desconforto piora à noite;EMERGENCIA;2
+sensação de cansaço, dor abdominal, perda de peso indesejada, dificuldade para dormir, sensação de fiação, descoloração turva dos dedos, quebras de cabelo, queda de cabelo, corpo macio cobrindo o cabelo, ausência de menstruação, dificuldade em passar fezes, pele seca, pele amarelada, intolerância ao batimento cardíaco frio e irregular;NAO_URGENTE;0
+dor de cabeça, sensação de girar, visão borroquida;URGENTE;1
+sentir-se cansado, comer demais de uma vez;EMERGENCIA;2
+dores de boca, uma mancha branca, vermelha na língua das gengivas, forro da boca, caroço no lábio, caroço na boca, perda de peso indesejada, espessamento da gengiva, afrouxamento dos dentes, alterações de voz, caroço na parte de trás da garganta, dor de garganta, dor ao engolir mastigação, dificuldade em mover a língua da mandíbula, dormência na área da boca, mandíbula inchada, pescoço inchado;EMERGENCIA;2
+dor nas encostas, calor nas palmas das mãos;URGENTE;1
+mudança de cor da pele;NAO_URGENTE;0
+dor de cabeça, dor de cabeça com dor na barriga, dor de cabeça com visão borra, dor de cabeça com náusea;NAO_URGENTE;0
+dor de garganta leve, tosse seca leve, sensação de cansaço, dor de cabeça fraca, dor abdominal leve;NAO_URGENTE;0
+dor no pescoço, dor na garganta, tosse com expectoração;NAO_URGENTE;0
+sensação de cansaço, falta de ar, dor no peito, frequência cardíaca rápida, perda de consciência;EMERGENCIA;2
+erupção cutânea vermelha e escalfada, dor nas mãos e pés, coceira intensa;URGENTE;1
+dor no peito aguda, dificuldade em respirar;URGENTE;1
+dor abdominal, dor no fundo, pontos, dor nas costas;EMERGENCIA;2
+suspiro de falta de ar, lábios inchados, garganta inchada, língua inchada, face inchada, inchaços vermelhos;EMERGENCIA;2
+dor no ombro, coceira no ombro, dor persistente;NAO_URGENTE;0
+mudança de cor da pele, inchaço, drenagem de pus;EMERGENCIA;2
+dor abdominal, dor vaginal, queimação vaginal, micção a ardor;EMERGENCIA;2
+febre, sensação de cansaço, dor abdominal, dor de garganta;EMERGENCIA;2
+coceira nas pernas, coceira nas mãos, dor persistente no pescoço;NAO_URGENTE;0
+sentindo-se cansado, respiração de falta de ar, assobiando som quando respirar, freqência cardíaca rápida;EMERGENCIA;2
+febre, falta de ar, sensação de cansaço, dor de cabeça, dor no peito, tosse;EMERGENCIA;2
+cólica renal intensa, náuseas, dor abdominal localizada, urina escassa;URGENTE;1
+suspiro de falta de ar, lábios inchados;EMERGENCIA;2
+dor de cabeça leve, cansaço, dor no pescoço, falta de energia, dor no braço esquerdo;NAO_URGENTE;0
+dor abdominal, vômitos, agulhas pins sensação nos dedos, agulhas pins sensação nos dedos dos pés, odor de alho na respiração, odor de alho nos tecidos do corpo;EMERGENCIA;2
+sentindo-se doente;NAO_URGENTE;0
+mal-estar generalizado, sensação de calor, sudorese excessiva;NAO_URGENTE;0
+pequenas manchas carecas no couro cabeludo, patches no corpo, patches podem ficar maiores, crescer juntos em ponto careca, o cabelo cresce de volta em um ponto, o cabelo cai em outro, perde muito cabelo durante um curto período de tempo, mais perda de cabelo no tempo frio;EMERGENCIA;2
+sensação de fadiga, dor na mandíbula, dificuldade em abrir a boca;NAO_URGENTE;0
+dor no peito, falta de ar, freqência cardíaca rápida, sensação de tontura , sensação de girar, sensação de formigamento dormentado instável, sudorese profusa, rubor repentino, calafrios, diarréia;NAO_URGENTE;0
+dor de garganta leve, dor de cabeça fraca, tosse seca leve, dor abdominal leve;NAO_URGENTE;0
+febre, sensação de cansaço, dor abdominal, dor na garganta, pele amarelada, amarelecimento dos brancos dos olhos, visão turva, erupção cutânea, sensação de mal-estar geral, glândulas inchadas;EMERGENCIA;2
+inchaço nas mãos, dificuldade em realizar gestos finos, dor nas articulações;URGENTE;1
+dor nas costas, dor no baixo abdominal, dor no tríceps;NAO_URGENTE;0
+coceira intensa no corpo, dificuldade para respirar, dor persistente na cabeça, sabor amargo na língua, dor na garganta, erupção cutânea vermelha em plaquinhas, dificuldade em ingerir alimentos, tontura recorrente;URGENTE;1
+dor abdominal, coceira na pele, erupção cutânea levantada, lábios inchados, rosto inchado, língua inchada, garganta inchada, partes inchadas do corpo, som assobiando ao respirar;EMERGENCIA;2
+dor no ombro direito, dor nas costas, coceira, dor no peito leve, nariz entupido, dor no braço direito;NAO_URGENTE;0
+dor na garganta, falta de ar, tosse seca;NAO_URGENTE;0
+urina clara com olor forte, dor no flanco direito;URGENTE;1
+tosse seca, tosse com expectoração amarela, tosse com expectoração verde, tosse com dificuldade em respirar;NAO_URGENTE;0
+febre, dor abdominal, sentir-se doente, vómitos, alterações de cor na área dolorida, mau cheiro dolorido;EMERGENCIA;2
+dor no pescoço, dificuldade de respirar durante o sono, dor renal aguda;URGENTE;1
+dor na garganta, falta de ar, dores torácicas;URGENTE;1
+atividade diminuída, dormir muito, dificuldade em alimentar, dificuldade em passar fezes, pele amarelada, amarelo dos brancos dos olhos, rosto inchado, fraco choro raspy, sentindo-se invulgarmente cansado;EMERGENCIA;2
+febre, sangramento vaginal, micção dolorosa, dificuldade em passar fezes, diarreia, inchaço, fezes de sangue, calafrios;EMERGENCIA;2
+dor no couro cabeludo, calvície, pêlos caídos, tontura, erupção cutânea vermelha e ardente;URGENTE;1
+urina de sangue, micção púrpura;URGENTE;1
+sentindo-se cansado, dor no peito, frequência cardíaca rápida, flutter batendo no peito, suar, sensação de girar, respiração de falta de ar, sentindo-se tonto, redução da capacidade de se exercitar;EMERGENCIA;2
+visão flutuante, dor de olho, nariz entupido, corno nasal, dor de garganta leve;NAO_URGENTE;0
+erupção cutânea vermelha, dores cutâneas;URGENTE;1
+sensação de fadiga, sensação de fraco apetite, sensação de frio, sensação de calor;NAO_URGENTE;0
+sensação de cansaço, dor abdominal leve, dor nas costas, dor no peito leve, tosse seca;NAO_URGENTE;0
+erupção cutânea vermelha escalfada, dor na garganta, dificuldade de ingestão;URGENTE;1
+dor na região do flanco, sangramento vaginal, dor abdominal persistente, dificuldade em urinar, dificuldade em caminhar;URGENTE;1
+dor torácica aguda, dificuldade respiratória, sudorese excessiva;URGENTE;1
+dor de garganta leve, cansaço sem causa grave, dor de cabeça fraca;NAO_URGENTE;0
+dor de garganta leve, cansaço, tosse seca, nariz entupido;NAO_URGENTE;0
+comichão intensa, irritação da pele, erupção cutânea levantada vermelha, pequenos solavancos;URGENTE;1
+sangramento rectal, dor durante a passagem das fezes, diarreia persistente;URGENTE;1
+nariz entupido, dor no nariz;NAO_URGENTE;0
+dor durante o movimento;EMERGENCIA;2
+dor de garganta leve, tosse seca leve, dor abdominal leve;NAO_URGENTE;0
+sentindo-se cansado, respiração de falta de ar, dor no peito, suor frio, sentindo-se doente, dor se espalhando para os dentes da mandíbula do ombro, sensação de girar;EMERGENCIA;2
+febre, sentindo-se cansado, perda de peso indesejada, pele amarelada, amarelo dos brancos dos olhos, pele com coceira intensa, fezes de cor branca, lado direito dor abdominal;EMERGENCIA;2
+febre, falta de ar, sentir-se cansado, dor no peito, tosse, assobio ao respirar, tosse que pode produzir muco verde amarelo;EMERGENCIA;2
+hemorroidas, sangramento rectal;URGENTE;1
+hemorragia nasal leve, dor de garganta;URGENTE;1
+dor de garganta intensa, tos seca;URGENTE;1
+falta de ar, dor de cabeça, respiração profunda, perda de consciência, tosse, tosse, voz rouca, incapacidade de falar, descoloração labial, descoloração facial, dificuldade, incapacidade de engolir, perda de memória;EMERGENCIA;2
+dor na região perianal, hematúria, dor nas costelas, dificuldade para andar;URGENTE;1
+febre, dor de cabeça, coceira, sensação de queimação na boca, sensação de queimação nos lábios;NAO_URGENTE;0
+dor de garganta leve, coceira leve, nariz entupido, tosse seca leve;NAO_URGENTE;0
+inchaço nas pernas, dificuldade em andar, dor nos músculos das pernas;URGENTE;1
+dor muscular generalizada, sensação de debilidade, artralgia;NAO_URGENTE;0
+dor no peito persistente, dificuldade em respirar, dor no ombro esquerdo;URGENTE;1
+falta de ar, tos crônica;URGENTE;1
+febre, sentindo-se cansado, articulação dolorosa;EMERGENCIA;2
+mudança de cor da pele, inchaço;EMERGENCIA;2
+febre, dor de cabeça, dor abdominal, perda de peso indesejada, sensação de doença, vômitos, diarreia aquosa, sensação de sede, sensação de cansaço, sensação de tontura, urina escura, perda de apetite;EMERGENCIA;2
+atividade diminuída, dormir muito, dificuldade em alimentar, dificuldade em passar fezes, pele amarelada, amarelo dos brancos dos olhos, rosto inchado, choro raspy fraco, sentindo-se invulgarmente cansado, sentindo-se muito frio, ponte de nariz plano, pálpebras inchadas, língua grande, cabelo áspero, pele grossa, pele seca, pele manchada;EMERGENCIA;2
+dor no peito fraca, nariz entupido, cansaço, tosse seca leve;NAO_URGENTE;0
+descarga vaginal anormal, manchas entre períodos menstruais, sangramento após o sexo, sangramento menstrual mais pesado dura mais do que o habitual, sexo com dor, sangramento durante a menopausa, verrugas genitais, dor lombar;NAO_URGENTE;0
+dor de garganta intenso, dificuldade para engolir, tosse seca, sibilos na respiração;URGENTE;1
+dor de garganta intensa, dificuldade de engolir, tosse seca;URGENTE;1
+sensibilidade à luz;EMERGENCIA;2
+novo local, mudando a toupeira, ferida não cicatriza, solavanco, remendo áspero escamoso;NAO_URGENTE;0
+respiração de falta de ar, dor abdominal, sentir-se doente, dor no pescoço, dor no ombro;EMERGENCIA;2
+tosse seca persistente, tosse com suor nasal;NAO_URGENTE;0
+dor no joelho, espasmos musculares, dificuldade de andar;URGENTE;1
+febre, falta de ar, sensação de cansaço, dor de cabeça, dor no peito;EMERGENCIA;2
+dor no peito leve, nariz entupido, dor de garganta leve, cansaço, dor no ombro direito;NAO_URGENTE;0
+perda de peso indesejada, urina de sangue, dor nas costas, perda de apetite, pé inchado, dor óssea;EMERGENCIA;2
+tosse seca leve, cansaço, dor de garganta leve, nariz entupido, dor de cabeça fraca;NAO_URGENTE;0
+dor de garganta leve, coceira nas orelhas;NAO_URGENTE;0
+olhos vermelhos aquosos, sensação de olhos arenosos, sensação de queimação dos olhos, pálpebras parecem oleosas, pálpebras com coceira, pálpebras vermelhas, descamação da pele ao redor dos olhos, cílios crocados, pálpebras coladas;EMERGENCIA;2
+sentindo-se cansado, dor lombar, rigidez;EMERGENCIA;2
+dedos rígidos;EMERGENCIA;2
+febre, sentir-se doente, vômitos, dor abdominal superior direita, pele amarelada, amarelecimento dos brancos dos olhos, fezes coloridas de argila, coceira;EMERGENCIA;2
+dor no peito fraca, dor abdominal leve, coceira leve, cansaço;NAO_URGENTE;0
+perda de peso indesejada, urina de sangue, dor nas costas, perda de apetite, pé inchado, dor óssea, micção frequente;EMERGENCIA;2
+dor de garganta leve, coceira leve, dor de cabeça fraca;NAO_URGENTE;0
+irritação ocular, visão borbulhante, dificuldade em manter os olhos abertos;URGENTE;1
+perda de audição, tontura, dificuldade na articulação, dores no ombro, sensação de inchaço linfático no pescoço;URGENTE;1
+dor de costas persistente, cansaço, dor de garganta, dor de cabeça fraca, tosse, queixume, dor no pescoço;NAO_URGENTE;0
+febre alta, dor intensa no ombro, dificuldade em elevar o braço;URGENTE;1
+febre, sangramento vaginal, micção dolorosa, dificuldade em passar fezes, diarreia, inchaço, fezes de sangue;EMERGENCIA;2
+falta de apetite, dificuldade em manter sonolência;NAO_URGENTE;0
+aprofundando a voz, calvície;EMERGENCIA;2
+feridas dolorosas com bordas esfarrapadas, dores de pele;EMERGENCIA;2
+dores musculares intensas, espasmos musculares, dificuldade de locomoção;URGENTE;1
+dificuldades de linguagem, dificuldades de fala, desafios de habilidade motora, problemas comportamentais, problemas de memória;EMERGENCIA;2
+dor nas costas, dor no peito, dor abdominal;NAO_URGENTE;0
+perda de peso indesejada, dor de boca;EMERGENCIA;2
+dor nas costas, dor no peito, dor na espinha dorsal;NAO_URGENTE;0
+dor abdominal, cansaço extremo, pele amarelada, amarelecimento dos brancos dos olhos, urina escura, fezes de cor pálida ou cinza;EMERGENCIA;2
+sangramento nasal persistente, dor nas costas, dificuldade respiratória;URGENTE;1
+dor no ombro, dificuldade em manter a respiração normal;NAO_URGENTE;0
+sensação de calafrios, dor nas mãos e pés, erupção cutânea vermelha e ardente;URGENTE;1
+lumps sob a pele;NAO_URGENTE;0
+febre, falta de ar, dor de garganta, respiração áspera;EMERGENCIA;2
+dor abdominal leve, dor no peito leve, dor nas costas, dificuldade em respirar;NAO_URGENTE;0
+sensação de calor excessivo, sudor profuso;URGENTE;1
+febre, coceira, corrimento vaginal, micção freqente, micção dolorosa, sexo dor, sangramento entre os períodos;EMERGENCIA;2
+febre, sentindo-se cansado, articulação dolorosa, rigidez, inchaço;EMERGENCIA;2
+dor de um olho, lacrimação;NAO_URGENTE;0
+falta de ar, dor de cabeça, respiração profunda, perda de consciência, tosse, tosse, voz rouca, incapacidade de falar, descoloração dos lábios, descoloração do rosto, dificuldade, incapacidade de engolir;EMERGENCIA;2
+tosse, queimadura na garganta, falta de apetite, nariz entupido, dor de garganta leve;NAO_URGENTE;0
+erupção cutânea vermelha intensa, dor nas costas, taquicardia;URGENTE;1
+nariz entupido e tosse seca;NAO_URGENTE;0
+sensação de dor de cabeça, sentir-se doente, zumbido nos ouvidos;EMERGENCIA;2
+febre, falta de ar, sensação de cansaço, dor abdominal, perda de peso indesejada, perda de apetite;EMERGENCIA;2
+febre, falta de ar, dor de garganta, respiração áspera, dificuldade em engolir;EMERGENCIA;2
+dificuldade respiratória leve, dor nas costas, dor durante a defecação;URGENTE;1
+visão dupla, dor nas costas, dificuldade para engolir;URGENTE;1
+dor no estômago persistente, náusea;URGENTE;1
+dor no peito, pressão no tórax;NAO_URGENTE;0
+dor no peito leve, nariz entupido, dor de garganta leve, cansaço, dor no ombro, dor persistente;NAO_URGENTE;0
+dor no peito, dor no peito, sentir-se doente, vómitos, dor abdominal superior, dor nas costas, dor no pescoço, dor na mandíbula, dor no ombro, dor no braço, dor persistente, queimadura cardíaca, dor epigástrica, suor frio, sensação de rotação, sensação de tontura, fraqueza, frequência cardíaca rápida;NAO_URGENTE;0
+respiração de falta, dor abdominal, dor no peito, sensação de girar, frequência cardíaca rápida, dor nas costas, dificuldade em engolir, sentindo-se cheio depois de não comer muito, dor no pescoço, mandíbula dor, estômago dor, ombro dor, uma sensação pulsante latejante em sua área do estômago, rosto inchado, pescoço inchado, braços inchados;NAO_URGENTE;0
+febre, sensação de cansaço, erupção cutânea, fraqueza muscular, dor muscular, articulação dolorosa;EMERGENCIA;2
+sangramento nas menstruações, dor no baixo abdômen;URGENTE;1
+coceira em genitálias, dor no baixo abdominal;URGENTE;1
+dor no peito, dificuldade respiratória, taquipneia;URGENTE;1
+dor na perna, dor no pé;NAO_URGENTE;0
+inchaço vermelho pequeno, inchaço macio doloroso, cistos, inchaço cheio de pus, vermelhidão em torno de erupções da pele, cicatrizes de pele, whiteheads, cravos;EMERGENCIA;2
+dor na cabeça, erupção cutânea na face;URGENTE;1
+dor nas costas, coceira nas costas, dificuldade em dormir;NAO_URGENTE;0
+febre, sensação de cansaço, dor abdominal, perda de peso indesejada;EMERGENCIA;2
+dor no peito, falta de ar;NAO_URGENTE;0
+sensação de cansaço, coceira na pele erupção cutânea, rosto inchado, zumbido som quando respirar, coceira nos olhos, inchaço nos lábios;EMERGENCIA;2
+dor renal, sangue no urina, dor na espinha dorsal;URGENTE;1
+dor nas costelas, dor no peito leve, coceira em membros superiores;NAO_URGENTE;0
+hemorragia vaginal, dor pélvica, fluido, tecido que passa da vagina, frequência cardíaca rápida;NAO_URGENTE;0
+febre, falta de ar, sensação de cansaço, dor de cabeça, dor no peito, tosse, articulação dolorosa, suores noturnos, erupção cutânea na parte superior do corpo, erupção cutânea nas pernas;EMERGENCIA;2
+dor de garganta, febre, dor de cabeça intensa;URGENTE;1
+cansaço extremo, febre, perda de peso indesejada, dor óssea, mancar, um sintoma psicótico por menos de um mês, área afetada inchada, sensibilidade perto da área afetada;EMERGENCIA;2
+bolhas na boca, bolhas na pele, bolhas facilmente rompidas;EMERGENCIA;2
+dor de garganta e dificuldade para engolir;NAO_URGENTE;0
+dor na garganta, dificuldade em respirar, tontura, sensação de ardor na garganta, dificuldade em deglutir, dificuldade em falar;URGENTE;1
+dor nas costas, dificuldade para respirar;URGENTE;1
+respiração de falta de ar, dor abdominal, língua inchada, garganta inchada, lábios inchados, coceira inchaços vermelhos, dificuldade em engolir, erupção cutânea vermelha;EMERGENCIA;2
+dor no peito, dormência súbita, fraqueza no braço, fraqueza nas pernas;EMERGENCIA;2
+coceira leve, dor de garganta leve, dor no pescoço, dor no ombro;NAO_URGENTE;0
+corrimento vaginal anormal;EMERGENCIA;2
+dor durante a micção, sangramento nas fezes;URGENTE;1
+febre, sentindo-se doente, vómitos, plenitude abdominal, inchaço do abdómen, deixar sair o ar do abdómen através da boca, perda de apetite, sensação de ardor no peito;EMERGENCIA;2
+dificuldade em manter a mesma postura durante tempo longo, dor no colo;NAO_URGENTE;0
+dor de garganta leve, coceira leve;NAO_URGENTE;0
+erupção cutânea rosácea, prurido intensivo;URGENTE;1
+dor renal intensa, hematuria;URGENTE;1
+micção freqüente, urgente e dolorosa;URGENTE;1
+dor no pé, vermelhidão nas plantas dos pés;URGENTE;1
+sensação de cansaço crônico, dificuldade para manter a atenção, dificuldade em dormir;NAO_URGENTE;0
+visão flutuante, dor de mão, dor de dentes, dificuldade em mastigar, coceira;NAO_URGENTE;0
+dor no peito, respiração de falta de ar, frequência cardíaca rápida, sensação de tontura;NAO_URGENTE;0
+sentindo-se cansado, perda de peso indesejada, sangramento entre os períodos;EMERGENCIA;2
+dor na garganta, dificuldade em respirar, dor no peito, inchaço na região da garganta, falta de ar;URGENTE;1
+dor de cabeça fraca, nariz entupido, tosse seca leve, dor de garganta leve, dor nas costas;NAO_URGENTE;0
+dor no pescoço, dor nas costas, queimadura cardíaca leve;NAO_URGENTE;0
+febre, falta de ar, sensação de cansaço, dor de cabeça, dor no peito, tosse, articulação dolorosa;EMERGENCIA;2
+urina de sangue, urina ardente;URGENTE;1
+sentindo-se cansado, dor no peito, frequência cardíaca rápida, flutter batendo no peito, suar, sensação de girar, respiração de falta de ar, sentindo-se tonto, redução da capacidade de se exercitar, fraqueza;EMERGENCIA;2
+dor no pescoço, dificuldade em olhar para cima, coceira no couro cabelo;NAO_URGENTE;0
+dor nas costelas, tosse persistente;URGENTE;1
+dor persistente na cabeça, dor no pescoço, dificuldade de equilíbrio;URGENTE;1
+dor de cabeça e falta de ar;NAO_URGENTE;0
+sangramento nas fezes, dificuldade em defecar;URGENTE;1
+suspiro de falta de ar, dor abdominal, língua inchada, garganta inchada, lábios inchados, inchaços vermelhos, dificuldade em engolir, erupção cutânea vermelha, aperto no peito, cãibras, diarreia, sentimento de condenação, sentimento de pavor, vômito;EMERGENCIA;2
+dor abdominal, dor ao urinar, corrimento vaginal incomum, dor pélvica, sexo dor, sangramento após o sexo, sangramento doloroso entre os períodos;NAO_URGENTE;0
+dor no ombro, dificuldade para movimentar o braço;URGENTE;1
+dor de cabeça crónica, fotofobia;URGENTE;1
+febre, falta de ar, sentir-se cansado, dor de cabeça, tosse, sensibilidade à luz, confusão, mudanças de comportamento, dor no pescoço;EMERGENCIA;2
+dor de garganta leve, cansaço, coceira leve, dor abdominal leve, dor no ouvido;NAO_URGENTE;0
+erupção cutânea vermelha e arroxeada, prurido, coceira no corpo;URGENTE;1
+dor de cabeça constante, sensação de pressão no crânio, fotofobia;NAO_URGENTE;0
+dor nas costas, dor muscular nas costas, dor lombar;NAO_URGENTE;0
+dor na boca, dor na língua;NAO_URGENTE;0
+sentindo-se cansado, perda de peso indesejada, sangramento entre períodos, sangramento incomum após a menopausa, sexo dor, dificuldade com movimentos intestinais, dificuldade em movimentos da bexiga, sangramento após o sexo;EMERGENCIA;2
+sentindo-se cansado, perda de peso indesejada, aumento da sede, micção freqente, aumento da fome, visão turva, pobre cicatrização de feridas, ficando doente muitas vezes;EMERGENCIA;2
+febre alta, mal-estar geral, cefaleia, dor no pescoço;URGENTE;1
+dificuldade respiratória moderada, tosse frequente;URGENTE;1
+mudança de cor da pele, inchaço, drenagem de pus, mudança de temperatura da pele;EMERGENCIA;2
+febre, dor de cabeça, dor abdominal, perda de peso indesejada, sensação de doença;EMERGENCIA;2
+inchaço nas pernas, dor nas pernas, sensação de inchaço nas pernas, dor nas pernas, sensação de calor na perna afetada, respiração de falta de ar, dor no peito;NAO_URGENTE;0
+dor de garganta, tosse seca;URGENTE;1
+dificuldade em ouvir sons agudos;EMERGENCIA;2
+dor na região do flanco, sangramento vaginal, dor abdominal, dificuldade em urinar;URGENTE;1
+pressão pélvica, dor lombar, bulging na vagina, vazamento de pee, dor ao urinar, micção frequente, urina de sangue, dificuldade em passar fezes, sexo com dor;NAO_URGENTE;0
+dor de dente, dificuldade de abertura da boca;URGENTE;1
+sudor profuso, falta de ar, calafrios;URGENTE;1
+dor nas costas, coceira nas pernas, dificuldade em respirar, dor na garganta;NAO_URGENTE;0
+coceira intensa no peito, dificuldade respiratória leve, dor no couro cabelo, fraqueza nas mãos, dores na cabeça;URGENTE;1
+inchaço da face, dificuldade de fala;URGENTE;1
+dor no peito, suor excessivo, sensação de tontura;NAO_URGENTE;0
+dificuldade em respirar leve, dor de garganta leve e dor de cabeça fraca;NAO_URGENTE;0
+coceira leve, nariz entupido, dor de cabeça fraca;NAO_URGENTE;0
+nariz entupido, tosse seca leve, sensação de cansaço;NAO_URGENTE;0
+erupção cutânea com coceira, manchas de couro, pele escamosa rachada seca, inchaço, inchaço, inchaço, inchaço, inchaço;EMERGENCIA;2
+patch branco no lábio;EMERGENCIA;2
+cansaço extremo, febre, perda de peso indesejada, dor óssea;EMERGENCIA;2
+dor persistente no pescoço, dor de colo, nariz entupido, dor de dentes, cansaço;NAO_URGENTE;0
+falta de ar, dor de cabeça, respiração profunda, perda de consciência, tosse, tosse, voz rouca, incapacidade de falar;EMERGENCIA;2
+dor nas costas, coceira na região sacral;URGENTE;1
+dor no peito leve, pressão no peito, dor no braço inferior;NAO_URGENTE;0
+dolorosa dor na garganta, faringite;URGENTE;1
+dor de cabeça, perda de peso indesejada, nódulo no pescoço;EMERGENCIA;2
+vermelhidão ocular, eye bloodshot, dor variando, desconforto, olhos lacrimosos lacrimejantes, coceira, descarga, sensibilidade à luz, visão turva;EMERGENCIA;2
+febre abdominal, dor abdominal, perda de peso indesejada, dor no peito, massa abdominal, alterar o movimento intestinal, assobiar o som quando respirar, derrapar pálpebra, tamanho de aluno desigual;EMERGENCIA;2
+erupção cutânea vermelha, coceira na face, dor nas costas;URGENTE;1
+febre, sentindo-se cansado, dor de cabeça, perda de cabelo, perda de peso, depressão, nódulos duros, espessamento de tendões nas mãos, frio, dedos dormentes, dedos dos pés, dedos dos pés, dedos inchados, mão inchada, dor muscular, articulação dolorosa;EMERGENCIA;2
+dor abdominal, coceira na pele, erupção cutânea levantada;EMERGENCIA;2
+dor nas mãos e pés, hemorragia nas membranas mucosas, falta de apetite;URGENTE;1
+dor de garganta leve, tosse seca, sensação de cansaço, dor no peito, dor nas costas, dor no ombro, dor no braço, coceira leve;NAO_URGENTE;0
+queimadura na língua, dor seca no nariz, dificuldade de ouvir;NAO_URGENTE;0
+dificuldade em deglutir, dor na garganta;URGENTE;1
+dor de garganta intensa, dificuldade em engolir;NAO_URGENTE;0
+irritação do prepúcio, cabeça de irritação do pênis, sensibilidade, retenção urinária;EMERGENCIA;2
+inchaço da mucosa, coceira;URGENTE;1
+dor de cabeça leve, sensação de tontura;NAO_URGENTE;0
+dor abdominal, coceira na pele, erupção cutânea levantada, lábios inchados, rosto inchado, língua inchada, garganta inchada, partes inchadas do corpo, som assobiando ao respirar, dificuldade em respirar;EMERGENCIA;2
+falta de ar, dor de cabeça;EMERGENCIA;2
+coceira leve, dor de garganta leve, sensação de seco garganta, dor de cabeça fraca, tosse seca;NAO_URGENTE;0
+dor no peito leve, sensação de tontura, dificuldade em respirar, dor na cabeça fraca, náusea, dor no estômago, dor nas costas;NAO_URGENTE;0
+respiração de falta de ar, dor no peito, sentir-se doente, vómitos, dor abdominal superior;EMERGENCIA;2
+dor de cabeça fraca, coceira leve, sensação de encharcamento nas membranas mucosas, dor nas costas;NAO_URGENTE;0
+febre, sentir-se doente, vómitos, plenitude abdominal, inchaço do abdómen, deixar sair o ar do abdómen através da boca, perda de apetite, sensação de ardor no peito, diarreia;EMERGENCIA;2
+dor persistente no pescoço, dor de colo, cansaço, coceira, dificuldade em mastigar;NAO_URGENTE;0
+febre ocular, dor ocular, inchaço ao redor dos olhos, vermelhidão, escurecimento da pele, secreção de pus dos olhos;EMERGENCIA;2
+inchaço da língua, dificuldade de alimentação;URGENTE;1
+sensação de cansaço, coceira na pele erupção cutânea, rosto inchado;EMERGENCIA;2
+sensação de cansaço, dor abdominal, perda de peso indesejada, dificuldade para dormir, sensação de fiação, descoloração turva dos dedos, quebras de cabelo, queda de cabelo, corpo macio cobrindo o cabelo, dificuldade em passar fezes, pele seca, pele amarelada, intolerância ao frio;NAO_URGENTE;0
+dor localizada na cabeça, dor na mandíbula;URGENTE;1
+dor no peito, disfunção erétil, dormência súbita, fraqueza no braço, fraqueza nas pernas, fala arrastada;EMERGENCIA;2
+febre abdominal, dor abdominal, sentir-se doente, vómitos, alterações de cor na área dolorida, mau cheiro dolorido, comichão, estourar som quando esfregar a área dolorida, calafrios, frequência cardíaca rápida;EMERGENCIA;2
+nariz entupido, dor de garganta leve, sensação de cansaço, dor abdominal leve;NAO_URGENTE;0
+dor nas costas, dificuldade respiratória;URGENTE;1
+período perdido, dificuldade em engravidar, crescimento excessivo do cabelo, manchas de pele grossa escura, queda de cabelo, perda de cabelo da cabeça, ganho de peso repentino em torno da barriga, pele oleosa, acne;NAO_URGENTE;0
+pupilas dilatadas, dor no peito, falta de ar, pressão súbita na cabeça;URGENTE;1
+dores na boca, uma mancha branca, vermelha na língua das gengivas, forro da boca, caroço no lábio, caroço na boca, perda de peso indesejada, espessamento da gengiva, afrouxamento dos dentes, alterações de voz, caroço na parte de trás da garganta, dor de garganta, dor ao engolir mastigação;EMERGENCIA;2
+dor de cabeça, sensação de dor de cabeça, vómitos, agitando incontrolavelmente, confusão, pescoço rígido, cegueira;EMERGENCIA;2
+febre, dor abdominal, sensação de doença;EMERGENCIA;2
+febre, sentindo-se cansado, dor de cabeça, perda de cabelo, perda de peso, depressão, nódulos duros, espessamento de tendões nas mãos, aborto espontâneo frequente, dedos frios, dormência, dedos dos pés, dedos inchados, mão inchada, dor muscular;NAO_URGENTE;0
+dor no ombro, dor nas costas, dor no braço, coceira, dor no pescoço, dor persistente;NAO_URGENTE;0
+dor torácica localizada, tosse seca;URGENTE;1
+dor, dormência, fraqueza;EMERGENCIA;2
+irritação do nariz, dor nas costas, dificuldade em respirar, dor durante a passagem dos urinos;URGENTE;1
+coceira leve, dor abdominal leve, dor no peito fraca, cansaço;NAO_URGENTE;0
+dor abdominal, náusea intensa, dores musculares;URGENTE;1
+torção de abdômen, dor abdominal intensa, vômito repetido;URGENTE;1
+dor no peito, dificuldade para respirar, dificuldade em agitar as pernas;URGENTE;1
+dor na região do baço, dificuldade respiratória moderada, febre alta, tosse;URGENTE;1
+coceira nos olhos, fotofobia;NAO_URGENTE;0
+dor torácica aguda, dificuldade respiratória intensa;URGENTE;1
+feridas dolorosas com bordas irregulares, feridas na pele, vazamento de pus, fluido infeccioso, feridas espalhando, glândulas linfáticas dolorosas na virilha;EMERGENCIA;2
+febre, perda de apetite, sentir-se doente, vómitos, dor abdominal superior direita;EMERGENCIA;2
+descarga vaginal anormal, manchas entre períodos menstruais, sangramento após o sexo, sangramento menstrual mais pesado dura mais do que o habitual, sexo com dor, sangramento durante a menopausa;NAO_URGENTE;0
+dor nas articulações, dor no pescoço, pélosis;URGENTE;1
+dor nas costas, coceira no pescoço;NAO_URGENTE;0
+pele rachada seca, erupção cutânea com coceira, inchaço da pele, pequenos solavancos levantados, exsudação, crostas;EMERGENCIA;2
+sensação de fraqueza generalizada, dor na garganta;URGENTE;1
+dor na região dos glúteos, dificuldade para andar, febre alta, dor muscular aguda;URGENTE;1
+dor de cabeça fraca, cansaço, dor de colo, dor de ombro;NAO_URGENTE;0
+dor na região inguinal, fraqueza no joelho;URGENTE;1
+sensação de ardor no garganta, dor de garganta leve, tosse seca, dor de cabeça fraca;NAO_URGENTE;0
+dor de garganta, dor de cabeça, dificuldade em respirar, coceira na pele, sensação de girar, náusea, dor no estômago, dor nas costas;NAO_URGENTE;0
+sentindo-se cansado, respiração de falta de ar, sentindo-se doente, sensação de queimação no peito, chest fullness, pressão no peito, espremendo;EMERGENCIA;2
+sensação de vômito, dor abdominal persistente, dificuldade respiratória leve, tosse seca, dor no peito;URGENTE;1
+dor no peito, disfunção erétil, dormência súbita, fraqueza no braço, fraqueza nas pernas;EMERGENCIA;2
+olhos vermelhos aquosos, sensação de olhos gritty, sensação de queimação dos olhos, pálpebras parecem oleosas, pálpebras com coceira, pálpebras vermelhas osciladas, descamação da pele ao redor dos olhos;EMERGENCIA;2
+dor na garganta, dificuldade em falar;URGENTE;1
+lumps sob a pele, dor nos olhos;EMERGENCIA;2
+respiração de falta de ar, dor no peito, sensação de fiação, perda de consciência, sensação de cansaço após a atividade, tornozelos inchados, pé inchado;EMERGENCIA;2
+dor de cabeça intensa, visão borrada, náuseas, dificuldade para falar;URGENTE;1
+amortece em torno do ânus, desconforto, dor na área anal;EMERGENCIA;2
+febre, sentir-se doente, vómitos, dor abdominal, inchaço do abdómen;EMERGENCIA;2
+sensação de cansaço, falta de ar, dor de cabeça, sensação de girar;EMERGENCIA;2
+dor na garganta, tosse prolongada, dificuldade para engolir;URGENTE;1
+dor no pescoço, dores musculares;NAO_URGENTE;0
+febre, sentindo-se cansado, dor de cabeça, perda de cabelo, perda de peso, depressão, caroços duros;EMERGENCIA;2
+respiração de falta de ar, dor no peito, sensação de fiação, perda de consciência, sensação de cansaço após a atividade;EMERGENCIA;2
+dor no peito, dor nas costas, dor no joelho, dor persistente, dor na mandíbula, dor no ombro, dor no braço, dor no pescoço;NAO_URGENTE;0
+gengivas inchadas;URGENTE;1
+coceira em membros inferiores, dor no pé, dor nas costas, dificuldade em caminhar;NAO_URGENTE;0
+dor nas mãos e pés, visão borrada, náuseas, dificuldade para falar;URGENTE;1
+dor durante a defecação, sangramento nas fezes;URGENTE;1
+sangramento nasal persistente, dificuldade respiratória;URGENTE;1
+febre, falta de ar, sensação de cansaço, dor abdominal, perda de peso indesejada, articulação dolorosa, palidez, hematomas erupções cutâneas inexplicadas, sangramento inexplicável;EMERGENCIA;2
+dor no peito, disfunção erétil, dormência súbita, fraqueza no braço, fraqueza nas pernas, fala arrastada, dificuldade em falar, perda de visão temporária, músculos caídos no rosto;EMERGENCIA;2
+dor nas costas intensa, náuseas frequentes, micção urgente, perda de peso brusca;URGENTE;1
+dente inchado;EMERGENCIA;2
+irritação do prepúcio, cabeça de irritação do pénis, sensibilidade;EMERGENCIA;2
+erupção cutânea com coceira na pele, manchas de couro, pele escamosa rachada seca, inchaço, inchaço, sensação de queimadura, sensibilidade da pele;EMERGENCIA;2
+dor de garganta moderada, dor de cabeça moderada, dor no ombro, dor no braço, dificuldade em dormir;NAO_URGENTE;0
+coceira genital, dificuldade em dormir, dor na região sacral;URGENTE;1
+dor nas pernas, dores musculares espontâneas;URGENTE;1
+dolorosa dificuldade de alimentação, falta de apetite prolongada, dores na região inguinal, sudorese profusa;URGENTE;1
+inchaço nas pernas, dor nas pernas, sensibilidade nas pernas, mudança na cor da pele na perna;EMERGENCIA;2
+dor de cabeça aguda, vómitos frequentes;URGENTE;1
+dificuldade em respirar, espirroeira persistente;URGENTE;1
+sensação de cansaço, respiração de falta de ar, respiração rápida, palidez, dificuldade em ganhar peso, frequência cardíaca rápida, suor durante a alimentação;EMERGENCIA;2
+dor de garganta leve, cansaço, coceira leve, dor no ouvido, dor abdominal leve, nariz entupido;NAO_URGENTE;0
+respiração de falta de ar, dor no peito, sensação de fiação, falta de energia;EMERGENCIA;2
+dor no peito, dormência súbita, fraqueza no braço, fraqueza nas pernas, fala arrastada, dificuldade em falar, perda de visão temporária;URGENTE;1
+dificuldade em mastigar, salivação excessiva;URGENTE;1
+falta de ar, dor de cabeça, respiração profunda, perda de consciência, tosse, raspy, voz rouca, incapacidade de falar, descoloração labial, descoloração facial;EMERGENCIA;2
+dor de garganta leve, dor de cabeça fraca, tosse seca leve, dor no ouvido, dor abdominal leve, nariz entupido;NAO_URGENTE;0
+dor no peito, dor na região torácica, dor no tórax;NAO_URGENTE;0
+erupção cutânea com coceira na pele, manchas de couro, pele escamosa rachada seca, inchaço, inchaço, inchaço, sensação de queimadura;EMERGENCIA;2
+respiração de falta de ar, dor abdominal, dor no peito;EMERGENCIA;2
+hemorroidas graves, sanguinamento rectal;URGENTE;1
+respiração de falta de ar, dor abdominal, língua inchada;EMERGENCIA;2
+dolorosa colecistite, dor abdominal superior;URGENTE;1
+dor na parte baixa do ventre, dificuldade em urinar, dor durante a urinação;URGENTE;1
+dolorosa hemorroidia externa, coceira;URGENTE;1
+febre leve, dor de garganta leve, dor abdominal leve, dificuldade em alimentar, dificuldade em passar fezes;NAO_URGENTE;0
+febre, dor de cabeça, coceira;NAO_URGENTE;0
+dor na garganta, dificuldade de engolir;URGENTE;1
+dolorosa inflamação nas costas, dificuldade na urinação, dor no peito, cefaleia intensa, dor no estômago, vômitos recorrentes, erupção cutânea amarelada em círculos, dificuldade respiratória aguda;URGENTE;1
+inchaço na boca, dificuldade de masticar, dor na mandíbula;URGENTE;1
+dor no peito leve, suor leve, dificuldade em respirar, dor nas costas, dor no joelho;NAO_URGENTE;0
+dor de músculos, coceira, cansaço, dor de pé, dor de cabeça fraca;NAO_URGENTE;0
+respiração de falta de ar, dor abdominal, língua inchada, garganta inchada;EMERGENCIA;2
+respiração de falta de ar, dor no peito, sensação de fiação, perda de consciência;EMERGENCIA;2
+dor, dormência, fraqueza, formigamento;EMERGENCIA;2
+dor na região do flanco, sangramento vaginal, dor abdominal persistente, dificuldade em caminhar, dificuldade em urinar;URGENTE;1
+coceira leve, dor de garganta, cansaço, falta de ar, dor no peito, dor nas costas, dor no ombro, dor persistente, nariz entupido, tosse seca;NAO_URGENTE;0
+coceira leve, dor de garganta, cansaço, dor de cabeça fraca, dor nas costas, dor no braço, dor persistente, tosse, nariz entupido;NAO_URGENTE;0
+dor localizada no tronco, frieza, sudorese intenso, dificuldade para andar;URGENTE;1
+dor de cabeça persistente, dor de cabeça com nausea, dor de cabeça com sensibilidade à luz;NAO_URGENTE;0
+erupção cutânea com coceira;URGENTE;1
+dor piora ao levantar os braços;EMERGENCIA;2
+sensação de calor corporal, fadiga, dor muscular, dificuldade respiratória moderada;URGENTE;1
+dor intensa no pescoço, tosse súbita, dificuldade em respirar, dor no couro cabelo, fraqueza generalizada;URGENTE;1
+erupção cutânea inflamada, febre recorrente;URGENTE;1
+febre abdominal, dor abdominal, perda de peso indesejada, dor torácica, massa abdominal;EMERGENCIA;2
+dor de cabeça intensa, vômito, dificuldade em ficar acordado;URGENTE;1
+calafrios, pele palida, dor de colo;NAO_URGENTE;0
+dor de garganta intensa, dificuldade de sufocação;URGENTE;1
+dor de garganta leve, coceira leve, cansaço, dor de cabeça fraca, nariz entupido, tosse seca leve, dor no ouvir, dor de músculos fraca, dor no pescoço, dor de músculos no peito, sensação de ar queimado, dor na cabeça após esforço físico, dificuldade em falar, dificuldade em engolir, sensação de coceira na pele;NAO_URGENTE;0
+taquicardia, dor abdominal esporádica, hematuria;URGENTE;1
+cansaço, tosse seca leve, dor de garganta leve, dor abdominal leve;NAO_URGENTE;0
+dor no ombro e pescoço, dores na região inguinal, fraqueza geral;URGENTE;1
+dor nas costas, dores musculares dispersas;URGENTE;1
+erupção cutânea com coceira, manchas de couro, pele escamosa rachada seca, inchaços;EMERGENCIA;2
+dor no ombro, desconforto piora à noite, dor no cotovelo, dor no quadril enquanto caminha;EMERGENCIA;2
+dor de cabeça, perda de peso indesejada, nódulo no pescoço, hemorragias no nariz, nariz bloqueado, nariz entupido;EMERGENCIA;2
+dores de boca, uma mancha branca, vermelha na língua das gengivas, forro da boca, caroço no lábio, caroço na boca, perda de peso indesejada, espessamento da gengiva, afrouxamento dos dentes, alterações de voz, caroço na parte de trás da garganta, dor de garganta, dor ao engolir mastigação, dificuldade em mover a língua da mandíbula, dormência na área da boca, mandíbula inchada, pescoço inchado, dor de ouvido;EMERGENCIA;2
+dor lombar e espirros;NAO_URGENTE;0
+nariz entupido, dificuldade em respirar moderada;NAO_URGENTE;0
+sentindo-se cansado, dor lombar, rigidez, dor no pescoço;EMERGENCIA;2
+amortece em torno do ânus, desconforto, dor na área anal, sangramento do ânus, descarga do ânus;EMERGENCIA;2
+dor no ombro, dor persistente na mão ou pé;NAO_URGENTE;0
+queimadura solar leve, nariz entupido, cansaço, dor de musculos, dor de pé;NAO_URGENTE;0
+manchas vermelhas nas mãos, falta de apetite;URGENTE;1
+descoloração da pele;EMERGENCIA;2
+sensação de cansaço, falta de ar, dor no peito, sensação de girar, perda de consciência;EMERGENCIA;2
+dor na garganta, dificuldade em engolir, dificuldade respiratória moderada;URGENTE;1
+feridas dolorosas com bordas esfarrapadas, feridas na pele, vazamento de pus, fluido infeccioso, feridas espalhadas;EMERGENCIA;2
+coceira leve, sensação de cansaço, falta de ar leve;NAO_URGENTE;0
+dor no peito leve, dor nas costas, dor no pé, cansaço;NAO_URGENTE;0
+erupção cutânea com coceira, vermelhidão generalizada;URGENTE;1
+dor de garganta leve, dor de cabeça fraca, coceira leve, dor no ouvido, dor abdominal leve;NAO_URGENTE;0
+coceira intensa no pescoço, dificuldade de engolir, dor localizada;URGENTE;1
+irritação do prepúcio, cabeça de irritação do pênis, sensibilidade, retenção urinária, inchaço, manchas brancas pruriginosas no pênis, corrimento com mau cheiro sob prepúcio, dor enquanto ejacula;EMERGENCIA;2
+febre vaginal, sangramento vaginal, micção dolorosa, dificuldade em passar fezes, diarreia, inchaço;EMERGENCIA;2
+feridas dolorosas com bordas esfarrapadas;NAO_URGENTE;0
+febre, falta de ar, dor de garganta, respiração áspera, dificuldade em engolir, voz abafada;EMERGENCIA;2
+dor de garganta aguda, falta de apetite;NAO_URGENTE;0
+febre, tosse, assobio ao respirar, respiração rápida, desconforto no peito;EMERGENCIA;2
+irritação do prepúcio, cabeça de irritação do pênis, sensibilidade, retenção urinária, inchaço, coceira manchas brancas no pênis, corrimento com mau cheiro sob prepúcio;EMERGENCIA;2
+erupção cutânea vermelha, coceira generalizada, febre alta;URGENTE;1
+sentindo-se cansado, comer muito de uma vez, vômitos, visitas frequentes ao banheiro, sentindo-se triste, sentindo-se sem esperança, dor de garganta;EMERGENCIA;2
+dor abdominal, vômitos, agulhas pins sensação nos dedos, agulhas pins sensação nos dedos dos pés, odor de alho na respiração, odor de alho nos tecidos do corpo, vermelhidão da pele, inchaço da pele, escurecimento da pele, lesão de verruga;EMERGENCIA;2
+dolorosa inflamação nas mucosas nasais;URGENTE;1
+gengivite intensa, dor nas gengivas, gingivala vermelha;URGENTE;1
+sensação de frio, coceira leve, nariz entupido, dor no peito leve;NAO_URGENTE;0
+dor de garganta leve, coceira leve na região do couro cabeludo, cansaço leve, nariz entupido, tosse seca leve, dor de garganta, dor de espinha dorsal leve, cansaço, dor de cabeça leve, coceira leve no rosto, coceira na parte inferior dos membros inferiores, tosse seca persistente, dor de garganta intermitente, dor no peito leve, sensação de se ajustar a baixo do colo;NAO_URGENTE;0
+dor de espinha dorsal intensa, dores radiculares;URGENTE;1
+dor de garganta com coceira, dor no ombro e espirro, nariz entupido e tosse seca, dor persistente na mandíbula, queimadura cardíaca e dor no peito, cansaço e dificuldade para dormir, dor abdominal fraca e suor frio, dor nas costas e perda de peso indesejado, sensação de tontura e fraqueza;NAO_URGENTE;0
+dor no peito, sentir-se doente, vómitos, dor abdominal superior, dor nas costas, dor no pescoço, dor na mandíbula, dor no ombro, dor no braço, dor persistente, queimadura cardíaca, dor epigástrica, suor frio, sensação de fiação;NAO_URGENTE;0
+nariz entupido, cansaço, dor de garganta leve, dor de cabeça fraca;NAO_URGENTE;0
+dor de dente, sensibilidade dentária;EMERGENCIA;2
+dor de garganta leve, nariz entupido, tosse seca leve;NAO_URGENTE;0
+doloroso inchaço no olho, visão alterada;URGENTE;1
+dor de garganta e coceira leve;NAO_URGENTE;0
+dor no peito, disfunção erétil, dormência súbita, fraqueza no braço, fraqueza nas pernas, fala arrastada, dificuldade em falar, perda de visão temporária, drooping músculos no rosto, dor nas pernas ao caminhar;EMERGENCIA;2
+sensação de cansaço, dor abdominal, perda de peso indesejada, dificuldade para dormir, sensação de fiação, descoloração turva dos dedos, queda de cabelo, queda de cabelo, corpo de cobertura de cabelo macio, ausência de menstruação;EMERGENCIA;2
+micção frequente, dificuldade em urinar, fluxo de urina fraco;EMERGENCIA;2
+dor de cabeça fraca, coceira leve, tosse seca leve, dor abdominal leve, nariz entupido;NAO_URGENTE;0
+dor durante a passagem das fezes;URGENTE;1
+coceira leve, pele seca, olhos vermelhos;NAO_URGENTE;0
+sensação de cansaço, respiração rápida;EMERGENCIA;2
+febre, sensação de cansaço, erupção cutânea;EMERGENCIA;2
+respiração de falta de ar, dor abdominal;EMERGENCIA;2
+coceira intensa no tronco, dor na região genital, dificuldade de micção, dores no músculo da perna, fraqueza no peito;URGENTE;1
+dor na cabeça, dificuldade na articulação;URGENTE;1
+coceira leve na cabeça, sensação de cansaço;NAO_URGENTE;0
+parando o movimento fetal, parando chutes;EMERGENCIA;2
+feridas dolorosas na boca;URGENTE;1
+dor no olho, lágrima excessiva, visão enrugada;NAO_URGENTE;0
+dor no pescoço, dor nas costas, dor no ombro, dor no colo, dor nas costas baixas;NAO_URGENTE;0
+coceira em pé, dor em pé;URGENTE;1
+dor abdominal;EMERGENCIA;2
+coceira no pescoço, dor lombar leve;NAO_URGENTE;0
+sensação de calor ou frieza persistente;NAO_URGENTE;0
+sentindo-se cansado, respiração de falta de ar, dor no peito, sensação de girar, perda de consciência, batendo no peito, freqência cardíaca rápida, ansiedade;EMERGENCIA;2
+dor no fêmur, dor no tornozelo, dor no calcanhar;NAO_URGENTE;0
+coceira nos ombros, dor muscular no quadril, manchas na pele;NAO_URGENTE;0
+dor no peito leve, dificuldade em respirar, tosse seca moderada, suor leve, calafrios;NAO_URGENTE;0
+erupção cutânea vermelha e arroxeada no tronco, dor localizada, prurido;URGENTE;1
+coceira leve, dor de garganta leve, dor de cabeça fraca, dor nas costas, tosse seca leve;NAO_URGENTE;0
+dor no pé, dor nas costas, dor abdominal leve, dor no peito leve;NAO_URGENTE;0
+tosse seca, tosse produtiva, dificuldade em respirar, dores no tórax, falta de ar;NAO_URGENTE;0
+sensação de tontura, sensação de calor, dores musculares, dor no pescoço, dor persistente, nariz entupido, sensação de garganta seca, falta de apetite;NAO_URGENTE;0
+dor nas costas, dor no baço;URGENTE;1
+febre alta, dor no peito;URGENTE;1
+pele rachada seca, erupção cutânea com coceira, inchaço da pele, pequenos inchaços levantados, exsudação, crostas, pele espessa, escurecimento da pele ao redor dos olhos;EMERGENCIA;2
+dor de peito, sibilancias respiratórias;URGENTE;1
+nariz entupido, dor de cabeça fraca, pressão no tronco;NAO_URGENTE;0
+febre abdominal, dor abdominal, perda de peso indesejada, dor torácica;EMERGENCIA;2
+dor na boca, falta de apetite, febre alta;URGENTE;1
+visão borbulhante, dor no olho, fotofobia, sensação de flashes de luz;URGENTE;1
+dor de cabeça leve, sentimento de náusea;NAO_URGENTE;0
+coceira no pé, sensação de formigas em pé, sensação de ardor no pé;NAO_URGENTE;0
+visão flutuante, dor de garganta leve, nariz entupido, corno nasal, queimadura solar leve;NAO_URGENTE;0
+sensação de encharcamento nas membranas mucosas, dor nas costas, dor abdominal leve, tosse;NAO_URGENTE;0
+sensação de coceira, dificuldade em dormir, dor de joelhos;NAO_URGENTE;0
+pele com coceira;EMERGENCIA;2
+dor no ombro, dor no braço, dor no pescoço, dor persistente;NAO_URGENTE;0
+dor de cabeça moderada, dor de garganta leve, coceira;NAO_URGENTE;0
+dor de garganta intensa, dificuldade de deglutição;URGENTE;1
+sensação de cansaço, suspiro de falta de ar, sopro cardíaco, respiração rápida, batimento cardíaco irregular, lábios da pele cinzenta unhas, lábios da pele azul unhas;EMERGENCIA;2
+respiração de falta de ar, dor no peito, sensação de girar, falta de energia, frequência cardíaca rápida, pulso rápido, desmaio;EMERGENCIA;2
+dor de pele no rosto, cansaço;NAO_URGENTE;0
+dor persistente na cabeça, cefaleia pulsátil;URGENTE;1
+sentindo-se cansado, respiração de falta de ar, som assobiando quando respirar;EMERGENCIA;2
+pressão pélvica, dor lombar, bulging na vagina, vazamento de pee;NAO_URGENTE;0
+pressão pélvica, dor lombar;NAO_URGENTE;0
+dor renal, hematúria;URGENTE;1
+sangramento vaginal intenso, dor abdominal leve;URGENTE;1
+coceira leve no pescoço, dor de garganta ligeira, dificuldade de suar, dor no ombro, dores musculares dispersas, tosse seca leve, dificuldade em dormir, sensação de cansaço, nariz entupido, dor de dentes, espessamento de tendões nas mãos, dor de músculos do colo, dor no braço, calafrios, manchas pálidas na pele;NAO_URGENTE;0
+cansaço, dor de cabeça, dor de tendo, dificuldade para ficar dormindo, náusea, dor no estômago, dor de costas;NAO_URGENTE;0
+dor nas costelas, dificuldade em respirar, dor no peito, inchaço nas costelas, dor no colo;URGENTE;1
+pequenas manchas carecas no couro cabeludo, patches no corpo, patches podem ficar maiores, crescer juntos em ponto careca, o cabelo cresce de volta em um ponto, o cabelo cai em outro, perde muito cabelo em um curto período de tempo, mais perda de cabelo no tempo frio, unhas quebradiças vermelhas, unhas quebradiças vermelhas;EMERGENCIA;2
+dor no peito, dormência súbita, fraqueza no braço, fraqueza nas pernas, fala arrastada, dificuldade em falar, perda temporária da visão, musculatura na face, dor nas pernas ao caminhar;EMERGENCIA;2
+visão turva;EMERGENCIA;2
+febre, sentir-se doente, vómitos;NAO_URGENTE;0
+peso indesejado, perda de cabelo, pele seca, pele amarelada, pele com manchas escuras;NAO_URGENTE;0
+inchaço da mucosa, coceira, sensação de queimação na boca;EMERGENCIA;2
+coceira leve, dor de garganta leve, dor no ombro, dor no braço;NAO_URGENTE;0
+dor no ombro, fraqueza no braço;URGENTE;1
+dor no pescoço, dor na garganta;NAO_URGENTE;0
+atividade diminuída, dormir muito, dificuldade em alimentar, dificuldade em passar fezes, pele amarelada, amarelo dos brancos dos olhos, rosto inchado, fraco choro raspy;EMERGENCIA;2
+sentindo-se cansado, dor no peito, frequência cardíaca rápida, flutter batendo no peito, suando;EMERGENCIA;2
+febre, falta de ar, sensação de cansaço, dor de cabeça, tosse;EMERGENCIA;2
+febre, dor de cabeça, confusão, má coordenação, convulsão;EMERGENCIA;2
+pequena colisão vermelha, dolorosa colisão tenra;URGENTE;1
+dor na cabeça intenso, visão borbulhante;URGENTE;1
+dor durante a passagem de fezes, fezes de sangue, rachadura anal, nódulo anal;EMERGENCIA;2
+dor na base do polegar, inchaço base do polegar;EMERGENCIA;2
+dor persistente no pescoço, dor de mão, dor de dentes, dificuldade em mastigar, cansaço;NAO_URGENTE;0
+dor no couro cabelo, vermelhidão nas costas;NAO_URGENTE;0
+dor no ombro, dificuldade em flexão do braço, coceira no ombro;NAO_URGENTE;0
+manchas na pele azuladas, dor muscular localizada, dificuldade em caminhar;URGENTE;1
+perda de audição temporária, dor na orelha;URGENTE;1
+dor de cabeça fraca, coceira leve, tosse seca leve, nariz entupido, dor no ouvido;NAO_URGENTE;0
+coceira leve, dor de cabeça fraca, sensação de cansaço;NAO_URGENTE;0
+dor de garganta leve, cansaço, coceira leve, dor no ouvido;NAO_URGENTE;0
+movimentos involuntários;EMERGENCIA;2
+manchas púrpura em pele, sangramento nas membranas mucosas;URGENTE;1
+dor abdominal, dor vaginal, queimação vaginal, micção, cheiro de peixe após o sexo;EMERGENCIA;2
+tosse seca, dor no tórax;NAO_URGENTE;0
+atividade diminuída, dormir muito, dificuldade em alimentar, dificuldade em passar fezes, pele amarelada, amarelo dos brancos dos olhos, rosto inchado, choro raspy fraco, sentindo-se invulgarmente cansado, sentindo-se muito frio, ponte de nariz plano, pálpebras inchadas, língua grande, cabelo áspero, pele grossa, pele seca, pele manchada, grandes manchas macias no crânio;NAO_URGENTE;0
+fezes de sangue, constipação, coceira anal;EMERGENCIA;2
+manchas escuras na língua;NAO_URGENTE;0
+febre, falta de ar, sensação de cansaço, dor no peito, tosse;NAO_URGENTE;0
+coceira leve no tronco e sensação de calor;NAO_URGENTE;0
+dor de cabeça, dor de cabeça intermitente;NAO_URGENTE;0
+dor abdominal persistente, vômitos, diarreia, dificuldade de movimentar-se;URGENTE;1
+sensação de coceira na cabeça, dor no peito, febre recorrente, dificuldade em caminhar;URGENTE;1
+falta de sono, sonhos agitados, insônia, dificuldade em permanecer dormindo, sonolência;NAO_URGENTE;0
+dor de garganta leve, dor de cabeça fraca, coceira leve, nariz entupido, dor no ouvido;NAO_URGENTE;0
+sudor por todo o corpo, dificuldade em sentir frio;URGENTE;1
+dor no ouvido, tosse intensa, dificuldade de alimento, cansaço;URGENTE;1
+sensação de pressão na cabeça, sensação de dor na cabeça;NAO_URGENTE;0
+dor nas costas, dor nas costas esquerda ou direita;NAO_URGENTE;0
+febre, sentindo-se cansado, dor de cabeça, perda de cabelo, perda de peso, depressão, nódulos duros, espessamento de tendões nas mãos, aborto espontâneo frequente, dedos frios, dormência, dedos dos pés, dedos dos pés, dedos inchados, mão inchada, dor muscular, articulação dolorosa;NAO_URGENTE;0
+dor nas pernas, pele seca e manchada;URGENTE;1
+vômito repetido, incontinência urinária;URGENTE;1
+dor de garganta leve, coceira leve, cansaço, dor de cabeça, dor nas costas, dor no braço, dor persistente, nariz entupido, tosse seca;NAO_URGENTE;0
+sentindo-se cansado, perda de peso indesejada, sangramento entre períodos, sangramento incomum após a menopausa, sexo dor, dificuldade com movimentos intestinais, dificuldade em movimentos da bexiga, sangramento após o sexo, corrimento vaginal com mau cheiro, desconforto abdominal, dor nas costas, dor pélvica, apetite perdido, desconforto vaginal;EMERGENCIA;2
+febre, sentir-se doente, vómitos, dor abdominal superior direita, pele amarelada, amarelecimento dos brancos dos olhos, fezes de cor argila, coceira, perda de apetite, sensibilidade abdominal;EMERGENCIA;2
+dor de garganta moderada, tosse seca moderada;NAO_URGENTE;0
+dor no peito, dores intermitentes no peito;NAO_URGENTE;0
+irritação do prepúcio, cabeça de irritação do pênis, sensibilidade, retenção urinária, inchaço;EMERGENCIA;2
+dor na fratura, sensibilidade, inchaço, osso parece torto, osso parece deformado, dificuldade em ganhar peso, movimento limitado na área lesada, dor em conjunto perto do intervalo, limping;NAO_URGENTE;0
+coceira na região das axilas, coceira na região sacro-anal;NAO_URGENTE;0
+dor de garganta persistente, cansaço crônico, coceira no tronco, dor de cabeça ligeira, dificuldade em ingerir líquidos, nariz entupido, dificuldade em respirar, tosse seca persistente, sensação de queimação no peito, pele manchada, pele gorda, pálpebras vermelhas, coceira no rosto, dor muscular leve, dor nas costas, pele seca persistente;NAO_URGENTE;0
+cansaço leve, dor de cabeça fraca, nariz entupido, tosse seca leve;NAO_URGENTE;0
+dor no pescoço, tosse prolongada;URGENTE;1
+sensação de cansaço, dor abdominal, perda de peso indesejada, dificuldade para dormir, sensação de fiação, descoloração turva dos dedos, quebras de cabelo, queda de cabelo, corpo macio cobrindo o cabelo, ausência de menstruação, dificuldade em passar fezes, pele seca, pele amarelada, intolerância ao frio;NAO_URGENTE;0
+sensação de cansaço, dor abdominal, perda de peso indesejada, dificuldade para dormir, sensação de fiação, descoloração turva dos dedos, quebras de cabelo, queda de cabelo, corpo de cobertura de cabelo macio, dificuldade em passar fezes;EMERGENCIA;2
+dor abdominal recorrente, dor no baço;URGENTE;1
+colisão marrom, colisão preta, sangramento, bainha, marrom, preto, azul lesão com levantado, borda translúcida;EMERGENCIA;2
+visão dupla, dificuldade em mover-se, dor no peito;URGENTE;1
+dor de garganta, coceira em membros inferiores, tosse seca leve;NAO_URGENTE;0
+respiração de falta de ar, dor abdominal, língua inchada, garganta inchada, lábios inchados;EMERGENCIA;2
+dificuldade em pegar coisas devido à fraqueza das mãos, sensação de parestesia nas mãos;NAO_URGENTE;0
+respiração de falta de ar, dor no peito, sensação de mal-estar, vómitos;EMERGENCIA;2
+dor de cabeça, um pescoço rígido;EMERGENCIA;2
+dor no joelho, dor nas costas, dor no peito, sensação de cansaço, dor no braço, dor na mandíbula, dor no ombro, coceira leve;NAO_URGENTE;0
+crenças falsas, ver, ouvir coisas não estão lá;NAO_URGENTE;0
+lumps sob a pele, dor nos olhos, visão dupla;EMERGENCIA;2
+febre, dor de cabeça, dor abdominal, perda de peso indesejada, sentir-se doente, vômitos, diarreia aquosa;EMERGENCIA;2
+dor na garganta, dificuldade de respirar;URGENTE;1
+inchaço nas pernas, dor nas pernas, sensação de inchaço nas pernas, dor nas pernas, sensação de calor na perna afetada, inchaço no peito, dor na área afetada, tosse de sangue;EMERGENCIA;2
+dor de garganta suave, tosse leve, nariz entupido, coceira leve no corpo, cansaço, dor de cabeça fraca, visão manchada, falta de apetite, dor persistente no peito, coceira leve nas mãos, dor no ombro, dor no braço, dor na mandíbula, dor de colo, dor no pé;NAO_URGENTE;0
+comichão intensa, irritação da pele, erupção cutânea elevada, pequenas colisões, rash nos pés, rash nas pernas, rash nas nádegas, rash nas costas, rash pode se espalhar em uma cobra como padrão;EMERGENCIA;2
+dor renal persistente, hematuria;URGENTE;1
+parando o movimento fetal, parando chutes, spotting;EMERGENCIA;2
+dor nas costas, cansaço, dores musculares, tosse com expectoração vermelha;URGENTE;1
+respiração de falta de ar, dor no peito, sensação de fiação, perda de consciência, sensação de cansaço após a atividade, tornozelos inchados, pé inchado, ter menos capacidade de ser ativo;EMERGENCIA;2
+bolhas na boca, bolhas na pele, bolhas facilmente rompidas, descamação da pele;EMERGENCIA;2
+dor renal persistente, hematúria, urgência frequente ao urinar;URGENTE;1
+manchas escuras na pele de braços e pernas;NAO_URGENTE;0
+dor abdominal leve, coceira, falta de ar, cansaço, dor no peito, nariz entupido, dor de cabeça, tosse seca;NAO_URGENTE;0
+mudança de cor da pele, inchaço, drenagem de pus, mudança de temperatura da pele, manchas dolorosas;NAO_URGENTE;0
+dor abdominal intensa, diarreia persistente, hematuria, colapso, inchaço nos pés;URGENTE;1
+dor de garganta leve, cansaço, tosse seca;NAO_URGENTE;0
+lumps sob a pele, dor nos olhos, visão dupla, olhos vermelhos irritados inchados, dificuldade em mover os olhos, os olhos se destacam;EMERGENCIA;2
+dor nas costelas, dificuldade em respirar;URGENTE;1
+dor persistente na região lumbar, perda de apetite;URGENTE;1
+dor de garganta, cansaço, dor de cabeça, dor abdominal leve;NAO_URGENTE;0
+dor na garganta, tosse seca, dificuldade para respirar;URGENTE;1
+dor no peito, dificuldade para respirar, freqüência cardíaca rápida;URGENTE;1
+sensação de cansaço, dificuldade em ficar concentrado, dor de colo;NAO_URGENTE;0
+dor no pescoço, dor na mandíbula, dor no maxilar;NAO_URGENTE;0
+febre recidivante, dor de garganta;URGENTE;1
+dor na garganta, dificuldade de degelar, febre alta, sensação de vômito;URGENTE;1
+dor de cabeça leve, dor no colo;NAO_URGENTE;0
+cara vermelha, erupção cutânea vermelha esparsa;URGENTE;1
+erupção cutânea com coceira em membros superiores;URGENTE;1
+dor no couro cabeludo, perda de cabelo;URGENTE;1
+sangramento nasal persistente, dor nas costelas, dificuldade respiratória moderada;URGENTE;1
+dor no peito, sudorese excessiva, falta de ar;NAO_URGENTE;0
+dor abdominal persistente, diarreia frequente;URGENTE;1
+erupção cutânea elevada, sensação de calor, dificuldade em mover-se;URGENTE;1
+dor na garganta, dor no pescoço, dor no couro cabeludo;NAO_URGENTE;0
+febre, sentindo-se cansado, dor de cabeça, perda de cabelo, perda de peso, depressão, nódulos duros, espessamento de tendões nas mãos, aborto espontâneo frequente;NAO_URGENTE;0
+febre, falta de ar, sentir-se cansado, perda de peso indesejada, dor no peito;EMERGENCIA;2
+nariz entupido, tosse seca, cansaço, dor de garganta leve;NAO_URGENTE;0
+dor na boca, dificuldade de mastigação;URGENTE;1
+dificuldade respiratória, tosse frequente, fadiga;URGENTE;1
+dor persistente na coluna vertebral, dificuldade em caminhar;URGENTE;1
+dificuldade em dormir, dor de garganta leve, dor de cabeça fraca, queimadura solar leve;NAO_URGENTE;0
+coceira leve, dor de cabeça fraca, nariz entupido, dor abdominal leve;NAO_URGENTE;0
+respiração de falta de ar, dor abdominal, língua inchada, garganta inchada, lábios inchados, coceira inchaços vermelhos, dificuldade em engolir, erupção cutânea vermelha, aperto no peito, cólicas, diarreia;EMERGENCIA;2
+febre, falta de ar, sensação de cansaço, dor abdominal, perda de peso indesejada, articulação dolorosa;EMERGENCIA;2
+cansaço intenso, dificuldade em concentrar-se;URGENTE;1
+dor na região pélvica, hemorrágia rectal, dificuldade para urinar, dor durante a micção;URGENTE;1
+febre, dor abdominal, perda de peso indesejada;EMERGENCIA;2
+inchaço da garganta, dor nas costas, dificuldade respiratória moderada;URGENTE;1
+dor nas costas, dor no baixo abdominal;NAO_URGENTE;0
+queimaduras leves no pescoço, coceira leve em ombro, dor fraca no braço, nariz entupido, tosse seca, dor de garganta leve, cansaço sem causa aparente, dor persistente no pescoço, pele amarelada, dor fraca na mandíbula, perda de cabelo localizada, dor de cabeça leve, dor no ombro, dor persistente no ombro, dor abdominal fraca;NAO_URGENTE;0
+dor na garganta, falta de ar, dificuldade de alimento, dificuldade em dormir;URGENTE;1
+visão dupla, perda de audição parcial;URGENTE;1
+dor de garganta moderada, sensação de sequeira na garganta;NAO_URGENTE;0
+dolorosa lesão no membro inferior, edema;URGENTE;1
+coceira em bochechas, dor de garganta;URGENTE;1
+perda de consciência, movimentos incontroláveis, olhando, mudanças emocionais repentinas, frequência cardíaca rápida, ondas de calor frio, dentes apertando, saliva vazando da boca;EMERGENCIA;2
+dor de cabeça persistente, visão borrá-losa, sensação de fraqueza geral, dificuldade de fala;URGENTE;1
+febre, dor abdominal, dor de garganta, erupção cutânea;NAO_URGENTE;0
+dor abdominal persistente, dor nos flancos, diarreia com sangue;URGENTE;1
+dor na mandíbula, dor no ombro, dor no braço, dor persistente, pele seca no rosto, cabelo áspero;NAO_URGENTE;0
+dor na mandíbula, dificuldade em abrir a boca, dor nas mordidas;NAO_URGENTE;0
+dor na mandíbula, coceira na mandíbula;NAO_URGENTE;0
+dor no ombro, sibilos, dificuldade respiratória leve, dor intermitente no peito;URGENTE;1
+feridas dolorosas na boca, centro amarelo dolorido, fronteira vermelha ao redor do dolorido, sensação de queimação na boca, dolorido redondo em forma de;EMERGENCIA;2
+sensação de cansaço, coceira na pele erupção cutânea, rosto inchado, zumbido som quando respirar, comichão nos olhos, lábios inchados, garganta inchada, língua inchada, dificuldade em respirar, dificuldade em engolir, tosse;EMERGENCIA;2
+dor nas costas, queimadura na pele, falta de apetite;NAO_URGENTE;0
+febre, sentir-se doente, vómitos, plenitude abdominal, inchaço do abdómen, deixar sair o ar do abdómen através da boca, perda de apetite, sensação de ardor no peito, diarreia, dificuldade em passar fezes, problemas com urinar;EMERGENCIA;2
+coceira leve, dor de cabeça fraca, nariz entupido, tosse seca;NAO_URGENTE;0
+febre, falta de ar, dor de garganta;EMERGENCIA;2
+olhos vermelhos aguados;EMERGENCIA;2
+dor abdominal, cansaço extremo, pele amarelada, amarelecimento dos brancos dos olhos, urina escura, fezes de cor pálida ou cinza, acúmulo de líquidos na barriga, sangramento retal, vômitos no sangue, confusão, articulação dolorosa, sintomas de gripe, coceira, abdômen grande, aranha como vasos sanguíneos na pele;EMERGENCIA;2
+pressão pélvica;NAO_URGENTE;0
+cansaço extremo, febre, perda de peso indesejada, dor óssea, mancar, um sintoma psicótico por menos de um mês;EMERGENCIA;2
+dor na cabeça, cefaleia intensa;URGENTE;1
+dor de garganta leve, tosse seca, nariz entupido, cansaço, falta de ar, dor de cabeça fraca, dor muscular, coceira leve;NAO_URGENTE;0
+sensação de calor corporal, dificuldade em caminhar, tosse seca, dor nas costas;URGENTE;1
+dor de cabeça intensa, vômito repetido, sensibilidade à luz;URGENTE;1
+febre, sensação de cansaço, dor abdominal, perda de peso indesejada, diarreia, fezes de sangue, dores na boca;EMERGENCIA;2
+dor abdominal, vómitos, agulhas pins sensação nos dedos, agulhas pins sensação nos dedos dos pés, odor de alho na respiração, odor de alho nos tecidos do corpo, vermelhidão da pele, inchaço da pele, escurecimento da pele, lesão da verrugas, manchas duras nas palmas das mãos, manchas duras nas solas dos pés, linhas brancas nas unhas, diarreia, formigamento da dormência na mão, formigamento da dormência nos pés, dormência;EMERGENCIA;2
+dor abdominal leve, vómitos raros, dor nas costas, dor no joelho, dedos fríos;NAO_URGENTE;0
+comichão intensa, irritação da pele, erupção cutânea elevada em vermelho;URGENTE;1
+sensação de cansaço, suspiro de falta de ar, sopro cardíaco, respiração rápida, batimento cardíaco irregular;EMERGENCIA;2
+dor abdominal, cansaço extremo;EMERGENCIA;2
+doloroso inchaço no pé, tonturas, calafrios;URGENTE;1
+sensação de cansaço, suspiro de falta de ar, sopro cardíaco, respiração rápida, batimento cardíaco irregular, lábios da pele cinzenta unhas, lábios da pele azul unhas, inchaço;EMERGENCIA;2
+dor persistente no abdômen, vômito persistente;URGENTE;1
+dor de garganta leve, coceira leve, dor de cabeça, cansaço, nariz entupido, tosse seca, dor no pescoço, falta de ar, dor no ombro;NAO_URGENTE;0
+dificuldade em respirar, coceira no pescoço, sensação de espirros no pescoço;NAO_URGENTE;0
+febre, sensação de cansaço, dor abdominal;EMERGENCIA;2
+dor no couro cabeludo, dificuldade em fala;URGENTE;1
+visão turva, dificuldade em reconhecer rostos familiares;EMERGENCIA;2
+tosse seca leve, cansaço, dor de garganta, dor de cabeça fraca;NAO_URGENTE;0
+dor no peito, respiração de falta de ar, frequência cardíaca rápida;NAO_URGENTE;0
+dor de cabeça intensa, vômito frequente;URGENTE;1
+febre ocular, dor ocular, inchaço ao redor dos olhos;EMERGENCIA;2
+dor no olho, dor na tempa;NAO_URGENTE;0
+dor abdominal, dor vaginal, queima vaginal, micção ardente, cheiro de peixe após o sexo, branco, cinza, corrimento vaginal verde;EMERGENCIA;2
+febre, falta de ar, sentindo-se cansado, dor abdominal, perda de peso indesejada, perda de apetite, sentindo-se doente, vômito;EMERGENCIA;2
+tosse contínua, dor de garganta, febre persistente;URGENTE;1
+dor no peito, respiração de falta de ar, freqência cardíaca rápida, sensação de tontura, sensação de girar, sensação de formigamento dormentado instável;URGENTE;1
+hemeroides dolorosas, sangramento rectal, constipação ou diarreia;URGENTE;1
+coceira leve, cansaço, tosse seca leve, dor de garganta leve;NAO_URGENTE;0
+dor na garganta, dificuldade de respiração;URGENTE;1
+dor de garganta leve, coceira leve, dor de cabeça fraca, nariz entupido;NAO_URGENTE;0
+dor de garganta leve, nariz entupido, cansaço, tosse seca leve;NAO_URGENTE;0
+dor no ombro, dor no braço, dor no polegar;NAO_URGENTE;0
+descarga vaginal anormal, detecção entre períodos menstruais, sangramento após o sexo, sangramento menstrual mais pesado dura mais do que o habitual, dor sexo;EMERGENCIA;2
+vermelhidão nos olhos;EMERGENCIA;2
+dor renal localizada, hematúria, dores na perna, náuseas repetidas;URGENTE;1
+dor no pescoço, fraqueza nas pernas, dificuldade em manter a postura ereta;URGENTE;1
+dor de garganta aguda, dor de garganta com calor, dor de garganta com pus, sensação de queimadura na garganta;NAO_URGENTE;0
+dor óssea, fraqueza na mão;EMERGENCIA;2
+dor de garganta leve, dor de olho, nariz entupido, dor de mão, coceira;NAO_URGENTE;0
+inchaço do olho, dor ocular persistente;URGENTE;1
+dor muscular aguda, dificuldade para andar, febre alta, sensação de franco, dificuldade respiratória moderada;URGENTE;1
+febre, falta de ar, sensação de cansaço, dor de cabeça, dor no peito, tosse, articulação dolorosa, sudores noturnos;EMERGENCIA;2
+dolorido não cura;EMERGENCIA;2
+respiração de falta de ar, dor abdominal, dor no peito, sensação de fiação, frequência cardíaca rápida, dor nas costas;EMERGENCIA;2
+erupção cutânea com coceira, vermelhidão nas unhas;URGENTE;1
+sentindo-se cansado, perda de peso indesejada, sangramento entre períodos, sangramento incomum após a menopausa, sexo dor, dificuldade com movimentos intestinais, dificuldade em movimentos da bexiga, sangramento após o sexo, corrimento vaginal com mau cheiro, desconforto abdominal, dor nas costas;EMERGENCIA;2
+sensação de cansaço, falta de ar, dor de cabeça, sensação de fiação, distúrbios visuais;EMERGENCIA;2
+dificuldade para mover membros inferiores, falta de apetite;URGENTE;1
+febre, sentir-se doente, vómitos, dor abdominal superior direita;EMERGENCIA;2
+dor durante a passagem dos urinos, dificuldade em caminhar, dor nas costas, dificuldade respiratória moderada;URGENTE;1
+dor no ombro esquerdo, dor no cotovelo, dor nas costas, coceira nas pernas;NAO_URGENTE;0
+dor no peito, palpitações frequentes;URGENTE;1
+erupção cutânea vermelha, dor intensa localizada;URGENTE;1
+dor abdominal leve, sensação de fiação, perda de apetite;NAO_URGENTE;0
+dor abdominal recorrente, náusea, vômitos;URGENTE;1
+dor no ombro, dor no braço, dificuldade em manter a postura ereta;NAO_URGENTE;0
+dor abdominal, dor vaginal, queimação vaginal;EMERGENCIA;2
+dor no ombro, dor no braço, coceira leve, cansaço;NAO_URGENTE;0
+dor na região abdominal superior, náusea, vômito, falta de apetite;URGENTE;1
+hematuria persistente, micção dolorosa, urgente micção frequente;URGENTE;1
+dor abdominal leve, coceira leve, falta de ar, cansaço, dor no peito, dor de cabeça, dor nas costas, dor no ombro, dor persistente;NAO_URGENTE;0
+descarga vaginal anormal, manchas entre períodos menstruais, sangramento após o sexo, sangramento menstrual mais pesado dura mais do que o habitual, sexo com dor, sangramento durante a menopausa, verrugas genitais;NAO_URGENTE;0
+dor persistente na articulação, coceira na pele;URGENTE;1
+dor de garganta, taquicardia, dificuldade em falar;URGENTE;1
+dor abdominal, cansaço extremo, pele amarelada, amarelamento dos brancos dos olhos, urina escura, fezes de cor pálida ou cinza, acúmulo de líquidos na barriga, sangramento retal, vómitos no sangue, confusão;EMERGENCIA;2
+cefaleia matinal;EMERGENCIA;2
+dor no peito, falta de ar, freqência cardíaca rápida, sensação de tontura, sensação de girar, sensação de formigamento dormentado instável, sudorese profusa, rubor repentino, calafrios;NAO_URGENTE;0
+colisão marrom, colisão preta, sangramento, bainha, marrom, preto, azul lesão com levantado;EMERGENCIA;2
+febre leve, dor no couro cabelo;NAO_URGENTE;0
+sentindo-se cansado, comer muito de uma vez, vômitos, visitas frequentes ao banheiro, sentindo-se triste, sentindo-se sem esperança, dor de garganta, dentes ruins;EMERGENCIA;2
+sensação de palpitação cardíaca, dor no peito, dificuldade respiratória leve, cansaço extrema;URGENTE;1
+dor na base do polegar, inchaço base do polegar, dificuldade em segurar, dificuldade em beliscar;EMERGENCIA;2
+sangramento nasal persistente, dor no peito, dificuldade respiratória ligeira;URGENTE;1
+respiração de falta de ar, dor no peito, sensação de fiação, falta de energia, frequência cardíaca rápida;EMERGENCIA;2
+dor na região do córtex cerebral, perda de audição, dificuldade para manter a postura, fraqueza no braço oposto;URGENTE;1
+dor no ombro, dor nas costas, dificuldade em mover a cabeça, coceira na pele;NAO_URGENTE;0
+falsas crenças, ver, ouvir coisas não estão lá, conversa confusa, comportamento estranho;EMERGENCIA;2
+dificuldade em passar fezes;EMERGENCIA;2
+sensação de cansaço, dor abdominal, perda de peso indesejada, dificuldade para dormir, sensação de fiação, descoloração turva dos dedos, queda de cabelo, queda de cabelo, queda de cabelo, corpo macio cobertor de cabelo, ausência de menstruação, dificuldade em passar fezes, pele seca, pele amarelada, intolerância ao frio, batimento cardíaco irregular, pressão arterial baixa, sensação de sede, tonturas, urina escura, braços inchados, perna inchada;NAO_URGENTE;0
+vermelhidão nos olhos, coceira nos olhos, uma sensação arenosa nos olhos, coisas gooey nos olhos quando acordar, lágrimas;EMERGENCIA;2
+mal de garganta secamente doente, nariz entupido, tosse seca, cansaço crônico, dor de garganta, dor de garganta leve persistente, dor de cabeça, cansaço, dor de garganta com dor de focinho, suor excessivo, dor no ombro, dor de costas leve, coceira persistente, coceira no rosto;NAO_URGENTE;0
+dor no couro cabeludo, cabelo seco;NAO_URGENTE;0
+dor no pescoço, dor no ombro, dor no braço, dor persistente, cansaço;NAO_URGENTE;0
+dor no peito, dificuldade em respirar;URGENTE;1
+dor no braço, dor persistente, dificuldade em dormir, cansaço;NAO_URGENTE;0
