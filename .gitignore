@@ -21,6 +21,7 @@ env/
 models/*.bin
 models/*.pt
 models/*.safetensors
+models/*.pkl
 
 # Dados brutos (manter processed no repo)
 data/raw/
