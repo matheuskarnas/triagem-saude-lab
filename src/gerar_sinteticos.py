@@ -1,232 +1,324 @@
 """
-gerar_sinteticos.py
--------------------
-Gera exemplos sintéticos de sintomas em português para balancear o dataset.
-Usa Ollama localmente (gratuito, sem internet após download do modelo).
+Gerador de dados sintéticos para triagem médica.
+Usa Ollama/Mistral com prompt clínico rigoroso para gerar exemplos
+balanceados e clinicamente corretos nas 3 classes de urgência.
 
 Uso:
-    python gerar_sinteticos.py --input dataset_final.csv --output dataset_balanceado.csv
-
-Requer:
-    pip install ollama pandas
-    ollama pull ministral-3b  (ou outro modelo)
+    python3 src/gerar_sinteticos.py
+    python3 src/gerar_sinteticos.py --por-classe 150 --output data/raw/dataset_sintetico.csv
 """
 
-from html import parser
-
-import ollama
-import pandas as pd
-import json
-import time
 import argparse
+import csv
+import json
 import random
-from collections import Counter
+import re
+import time
+from pathlib import Path
 
-# ─── Configuração ────────────────────────────────────────────────────────────
+import requests
 
-TARGET_PER_CLASS = 400   # exemplos alvo por classe
-BATCH_SIZE       = 15    # exemplos por chamada ao modelo
-MODEL_NAME       = "mistral"  # modelo local via Ollama
+# ---------------------------------------------------------------------------
+# Configuração
+# ---------------------------------------------------------------------------
+
+OLLAMA_URL = "http://localhost:11434/api/generate"
+OLLAMA_MODEL = "mistral"  # troque por "mistral:7b" se necessário
 
 LABEL_MAP = {
-    "URGENTE": {
-        "num": 1,
-        "descricao": (
-            "Sintomas que precisam de atenção médica em até 24h, mas sem risco imediato de morte. "
-            "Exemplos: febre alta persistente, dor intensa localizada, tontura com vômito, "
-            "dificuldade respiratória leve, corte profundo, crise de asma moderada."
+    "LEVE": 0,
+    "MODERADO": 1,
+    "URGENTE": 2,
+}
+
+# Quantos exemplos gerar por classe (padrão)
+DEFAULT_POR_CLASSE = 120
+
+# ---------------------------------------------------------------------------
+# Critérios clínicos — fonte das definições e exemplos fixos
+# ---------------------------------------------------------------------------
+
+CRITERIOS = {
+    "LEVE": {
+        "definicao": (
+            "Sintomas leves que NÃO representam risco imediato. "
+            "O paciente pode aguardar consulta agendada (dias ou semanas). "
+            "Sem alteração de consciência, sem dor intensa, sem dificuldade respiratória."
+        ),
+        "exemplos_fixos": [
+            "tosse leve há dois dias, sem febre",
+            "coriza e espirros, provável resfriado comum",
+            "dor de cabeça leve, sem febre, sem rigidez de nuca",
+            "cansaço após esforço físico intenso no dia anterior",
+            "coceira leve na pele, sem inchaço, sem dificuldade respiratória",
+            "dor muscular leve após exercício",
+            "azia leve após refeição gordurosa",
+            "leve irritação nos olhos, sem perda de visão",
+            "pequeno corte superficial, sangramento já controlado",
+            "dor de dente leve, sem inchaço na face",
+        ],
+        "nao_incluir": (
+            "NÃO inclua: febre acima de 38.5°C, dor no peito, falta de ar, "
+            "perda de consciência, sangramento intenso, dor abdominal intensa, "
+            "confusão mental, paralisia, convulsão, vômitos repetidos."
         ),
     },
-    "NAO_URGENTE": {
-        "num": 0,
-        "descricao": (
-            "Sintomas leves que podem aguardar consulta agendada. "
-            "Exemplos: resfriado comum, dor de garganta leve, cansaço sem causa grave, "
-            "coceira leve, dor de cabeça fraca, nariz entupido, tosse seca leve."
+    "MODERADO": {
+        "definicao": (
+            "Sintomas moderados que precisam de atenção médica em até 24 horas. "
+            "Causam desconforto significativo mas SEM risco imediato de vida. "
+            "Pode haver febre moderada, dor intensa localizada, ou sintomas que pioram gradualmente."
+        ),
+        "exemplos_fixos": [
+            "febre de 39°C há 12 horas, dor de garganta intensa, dificuldade para engolir",
+            "dor abdominal moderada no lado direito, sem rigidez abdominal",
+            "tontura ao levantar, sem desmaio, pressão levemente baixa",
+            "vômitos repetidos há 6 horas, sem sangue, ainda consciente e hidratado",
+            "dor lombar intensa que irradia para a perna, formigamento",
+            "corte profundo que não para de sangrar após 10 minutos de pressão",
+            "torção no tornozelo com inchaço importante, dificuldade para apoiar o pé",
+            "dor de ouvido intensa com febre de 38.8°C",
+            "infecção urinária com febre baixa e dor ao urinar",
+            "reação alérgica leve a moderada: urticária sem inchaço na garganta",
+        ],
+        "nao_incluir": (
+            "NÃO inclua: dor no peito com irradiação, falta de ar severa, "
+            "perda de consciência, convulsão, paralisia facial, AVC suspeito, "
+            "sangramento que não cede, choque anafilático, trauma craniano grave."
+        ),
+    },
+    "URGENTE": {
+        "definicao": (
+            "Sintomas com RISCO IMEDIATO DE VIDA. Requer atendimento em minutos. "
+            "Inclui: parada cardíaca, AVC, obstrução das vias aéreas, choque, "
+            "trauma grave, sangramento incontrolável, convulsão ativa, "
+            "alteração grave de consciência."
+        ),
+        "exemplos_fixos": [
+            "dor no peito intensa com irradiação para o braço esquerdo e sudorese fria",
+            "falta de ar severa em repouso, lábios azulados, incapaz de falar frases completas",
+            "queda súbita com perda de consciência, não responde a estímulos",
+            "fraqueza súbita no lado direito do corpo, fala embaralhada, suspeita de AVC",
+            "convulsão ativa há mais de 2 minutos, não cede",
+            "sangramento intenso após ferimento, não controlado com pressão",
+            "reação alérgica grave: inchaço na garganta, dificuldade para respirar",
+            "queimadura em mais de 20% do corpo ou em face/vias aéreas",
+            "trauma craniano com perda de consciência e vômitos em jato",
+            "dor abdominal em punhalada com abdome rígido, queda de pressão",
+            "bebê sem respirar, coloração arroxeada",
+            "tentativa de suicídio com ingestão de medicamentos",
+        ],
+        "nao_incluir": (
+            "NÃO inclua: sintomas leves como resfriado, dor muscular leve, "
+            "azia, coceira simples, ou qualquer coisa que possa esperar horas."
         ),
     },
 }
 
-# ─── Prompt ──────────────────────────────────────────────────────────────────
+# ---------------------------------------------------------------------------
+# Prompt builder
+# ---------------------------------------------------------------------------
 
-def build_prompt(label: str, descricao: str, exemplos_existentes: list, quantidade: int) -> str:
-    amostra = random.sample(exemplos_existentes, min(8, len(exemplos_existentes)))
-    exemplos_str = "\n".join(f"- {e}" for e in amostra)
+def build_prompt(classe: str, n: int) -> str:
+    c = CRITERIOS[classe]
+    exemplos_str = "\n".join(f"- {e}" for e in c["exemplos_fixos"])
 
-    return f"""Você é um especialista em triagem médica. Gere descrições de sintomas em português brasileiro.
+    return f"""Você é um médico de pronto-socorro brasileiro especialista em triagem clínica.
 
-CLASSE: {label}
-DEFINIÇÃO: {descricao}
+Sua tarefa: gerar {n} exemplos DIFERENTES de relatos de sintomas para a classe "{classe}".
 
-EXEMPLOS REAIS DO DATASET:
+DEFINIÇÃO DA CLASSE "{classe}":
+{c["definicao"]}
+
+EXEMPLOS REAIS DESTA CLASSE (use como referência de estilo e gravidade):
 {exemplos_str}
 
-TAREFA: Gere exatamente {quantidade} novas descrições de sintomas para a classe {label}.
+RESTRIÇÃO CRÍTICA:
+{c["nao_incluir"]}
 
-REGRAS:
-- Escreva em português brasileiro, letras minúsculas
-- Liste sintomas separados por vírgula (sem frases longas)
-- Entre 2 e 12 sintomas por descrição
-- Varie bastante — não repita combinações dos exemplos acima
-- Mantenha coerência clínica com a classe {label}
-- NÃO inclua diagnósticos, apenas sintomas
+INSTRUÇÕES DE FORMATO:
+- Retorne SOMENTE um array JSON válido, sem texto antes ou depois
+- Cada elemento é uma string com o relato do paciente
+- Escreva em português brasileiro informal, como um paciente descreveria seus sintomas
+- Varie: às vezes lista de sintomas separados por vírgula, às vezes frase completa
+- Cada relato deve ter entre 5 e 40 palavras
+- Os {n} exemplos devem ser CLINICAMENTE DISTINTOS entre si
+- NÃO repita os exemplos de referência acima
 
-RESPONDA APENAS com JSON válido, sem texto adicional:
-{{"exemplos": ["sintoma1, sintoma2", "sintoma3, sintoma4, sintoma5"]}}"""
+Responda APENAS com o JSON array. Exemplo de formato:
+["sintoma a, sintoma b", "paciente relata dor intensa em...", "febre alta com..."]
+"""
 
-# ─── Geração ─────────────────────────────────────────────────────────────────
+# ---------------------------------------------------------------------------
+# Chamada ao Ollama
+# ---------------------------------------------------------------------------
 
-def gerar_exemplos(label: str, info: dict, exemplos_existentes: list, quantidade_total: int) -> list:
-    gerados = []
-    textos_vistos = set(t.lower().strip() for t in exemplos_existentes)
-    tentativas = 0
-    max_tentativas = (quantidade_total // BATCH_SIZE + 1) * 4
-
-    print(f"\n  Gerando {quantidade_total} exemplos para [{label}]...")
-
-    while len(gerados) < quantidade_total and tentativas < max_tentativas:
-        faltam = quantidade_total - len(gerados)
-        batch = min(BATCH_SIZE, faltam + 5)
-
+def chamar_ollama(prompt: str, tentativas: int = 3) -> list[str]:
+    for tentativa in range(1, tentativas + 1):
         try:
-            response = ollama.chat(
-                model=MODEL_NAME,
-                messages=[{
-                    "role": "user",
-                    "content": build_prompt(label, info["descricao"], exemplos_existentes, batch)
-                }],
-                options={"temperature": 0.85, "num_predict": 600}
+            resp = requests.post(
+                OLLAMA_URL,
+                json={
+                    "model": OLLAMA_MODEL,
+                    "prompt": prompt,
+                    "stream": False,
+                    "options": {
+                        "temperature": 0.85,
+                        "top_p": 0.95,
+                        "num_predict": 2048,
+                    },
+                },
+                timeout=120,
             )
+            resp.raise_for_status()
+            texto = resp.json()["response"].strip()
 
-            raw = response["message"]["content"].strip()
+            # Extrai o JSON mesmo se vier com texto extra
+            match = re.search(r"\[.*\]", texto, re.DOTALL)
+            if not match:
+                raise ValueError(f"JSON não encontrado na resposta:\n{texto[:300]}")
 
-            # Limpar possíveis markdown fences
-            raw = raw.replace("```json", "").replace("```", "").strip()
+            exemplos = json.loads(match.group())
+            if not isinstance(exemplos, list):
+                raise ValueError("Resposta não é uma lista")
 
-            # Extrair só o JSON caso venha com texto antes/depois
-            inicio = raw.find("{")
-            fim = raw.rfind("}") + 1
-            if inicio == -1 or fim == 0:
-                raise ValueError("JSON não encontrado na resposta")
-            raw = raw[inicio:fim]
+            # Filtra strings vazias
+            exemplos = [str(e).strip() for e in exemplos if str(e).strip()]
+            return exemplos
 
-            data = json.loads(raw)
-            novos = 0
-
-            for texto in data.get("exemplos", []):
-                texto = texto.strip().lower()
-                if (texto
-                        and texto not in textos_vistos
-                        and len(texto.split()) >= 2
-                        and len(gerados) < quantidade_total):
-
-                    gerados.append({
-                        "texto":     texto,
-                        "label":     label,
-                        "label_num": info["num"]
-                    })
-                    textos_vistos.add(texto)
-                    novos += 1
-
-            print(f"    Lote {tentativas+1}: +{novos} novos | total: {len(gerados)}/{quantidade_total}")
-
-        except (json.JSONDecodeError, ValueError) as e:
-            print(f"    ⚠ Erro de parsing no lote {tentativas+1}: {e}")
         except Exception as e:
-            print(f"    ⚠ Erro inesperado no lote {tentativas+1}: {e}")
-            time.sleep(3)
+            print(f"  ⚠️  Tentativa {tentativa}/{tentativas} falhou: {e}")
+            if tentativa < tentativas:
+                time.sleep(3)
 
-        tentativas += 1
+    return []
 
-    if len(gerados) < quantidade_total:
-        print(f"    ⚠ Atenção: gerou apenas {len(gerados)}/{quantidade_total} exemplos únicos")
-    else:
-        print(f"    ✅ [{label}] concluído!")
+# ---------------------------------------------------------------------------
+# Geração em lotes
+# ---------------------------------------------------------------------------
 
-    return gerados
+def gerar_classe(classe: str, total: int, lote: int = 20) -> list[dict]:
+    """Gera `total` exemplos para uma classe, em lotes de `lote`."""
+    resultados = []
+    label_num = LABEL_MAP[classe]
+    gerados = 0
 
-# ─── Main ─────────────────────────────────────────────────────────────────────
+    print(f"\n{'='*60}")
+    print(f"Gerando classe: {classe} (alvo: {total} exemplos)")
+    print(f"{'='*60}")
 
-def main():
-    parser = argparse.ArgumentParser(description="Balanceia dataset de triagem com dados sintéticos via Ollama")
-    parser.add_argument("--input",  default="dataset_final.csv",      help="CSV de entrada")
-    parser.add_argument("--output", default="dataset_balanceado.csv", help="CSV de saída")
-    parser.add_argument("--target", type=int, default=TARGET_PER_CLASS, help="Exemplos alvo por classe")
-    parser.add_argument("--model",  default="mistral", help="Modelo Ollama a usar")
+    while gerados < total:
+        restante = total - gerados
+        n_lote = min(lote, restante)
 
-    args = parser.parse_args()
+        print(f"  Lote: pedindo {n_lote} exemplos... ", end="", flush=True)
+        prompt = build_prompt(classe, n_lote)
+        exemplos = chamar_ollama(prompt)
 
-    global MODEL_NAME
-    MODEL_NAME = args.model
-
-    # ── Carregar dataset ──────────────────────────────────────────────────────
-    print(f"📂 Carregando {args.input}...")
-    try:
-        df = pd.read_csv(args.input, sep=';')
-        if 'texto' not in df.columns:
-            df = pd.read_csv(args.input, sep=',')
-    except Exception as e:
-        print(f"❌ Erro ao carregar CSV: {e}")
-        return
-
-    print(f"   {len(df)} linhas carregadas")
-    dist = Counter(df['label'])
-
-    print(f"\n📊 Distribuição atual:")
-    for k, v in dist.most_common():
-        print(f"   {k:15s}: {v:4d} ({v/len(df)*100:.1f}%)")
-
-    # ── Verificar conexão com Ollama ──────────────────────────────────────────
-    print(f"\n🤖 Verificando Ollama com modelo '{MODEL_NAME}'...")
-    try:
-        ollama.chat(
-            model=MODEL_NAME,
-            messages=[{"role": "user", "content": "responda apenas: ok"}]
-        )
-        print(f"   ✅ Ollama funcionando!")
-    except Exception as e:
-        print(f"   ❌ Ollama não responde: {e}")
-        print(f"   Verifique se o Ollama está rodando: ollama serve")
-        print(f"   E se o modelo está baixado: ollama pull {MODEL_NAME}")
-        return
-
-    # ── Gerar sintéticos ──────────────────────────────────────────────────────
-    todos_sinteticos = []
-
-    for label, info in LABEL_MAP.items():
-        atual = dist.get(label, 0)
-        faltam = args.target - atual
-
-        if faltam <= 0:
-            print(f"\n✅ [{label}] já tem {atual} exemplos — pulando geração")
+        if not exemplos:
+            print("FALHOU, pulando lote.")
             continue
 
-        exemplos_existentes = df[df['label'] == label]['texto'].tolist()
-        sinteticos = gerar_exemplos(label, info, exemplos_existentes, faltam)
-        todos_sinteticos.extend(sinteticos)
+        # Deduplica contra o que já temos
+        textos_existentes = {r["texto"].lower() for r in resultados}
+        novos = [e for e in exemplos if e.lower() not in textos_existentes]
 
-    # ── Montar dataset final ──────────────────────────────────────────────────
-    df_emergencia = df[df['label'] == 'EMERGENCIA']
-    if len(df_emergencia) > args.target:
-        print(f"\n✂️  Undersampling EMERGENCIA: {len(df_emergencia)} → {args.target}")
-        df_emergencia = df_emergencia.sample(n=args.target, random_state=42)
+        for texto in novos:
+            resultados.append({
+                "texto": texto,
+                "label": classe,
+                "label_num": label_num,
+            })
 
-    df_outros     = df[df['label'] != 'EMERGENCIA']
-    df_sinteticos = pd.DataFrame(todos_sinteticos)
+        gerados = len(resultados)
+        print(f"OK ({len(novos)} novos, total: {gerados})")
 
-    df_final = pd.concat([df_emergencia, df_outros, df_sinteticos], ignore_index=True)
-    df_final = df_final.sample(frac=1, random_state=42).reset_index(drop=True)
+        # Pequena pausa para não sobrecarregar o Ollama
+        time.sleep(1)
 
-    # ── Salvar ────────────────────────────────────────────────────────────────
-    df_final.to_csv(args.output, index=False, sep=';', encoding='utf-8-sig')
+    # Garante exatamente `total` exemplos (pode ter gerado a mais)
+    random.shuffle(resultados)
+    return resultados[:total]
 
-    print(f"\n📊 Distribuição final:")
-    dist_final = Counter(df_final['label'])
-    for k, v in dist_final.most_common():
-        print(f"   {k:15s}: {v:4d} ({v/len(df_final)*100:.1f}%)")
+# ---------------------------------------------------------------------------
+# Salvar CSV
+# ---------------------------------------------------------------------------
 
-    print(f"\n✅ Salvo em: {args.output}")
-    print(f"   Total de exemplos: {len(df_final)}")
+def salvar_csv(dados: list[dict], caminho: Path) -> None:
+    caminho.parent.mkdir(parents=True, exist_ok=True)
+    with open(caminho, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=["texto", "label", "label_num"])
+        writer.writeheader()
+        writer.writerows(dados)
+    print(f"\n✅ Dataset salvo em: {caminho}")
+    print(f"   Total de exemplos: {len(dados)}")
+
+
+def mostrar_distribuicao(dados: list[dict]) -> None:
+    from collections import Counter
+    dist = Counter(d["label"] for d in dados)
+    print("\nDistribuição final:")
+    for label, count in sorted(dist.items()):
+        pct = count / len(dados) * 100
+        print(f"  {label:12s}: {count:4d} ({pct:.1f}%)")
+
+# ---------------------------------------------------------------------------
+# Main
+# ---------------------------------------------------------------------------
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Gerador de dados sintéticos para triagem")
+    parser.add_argument(
+        "--por-classe",
+        type=int,
+        default=DEFAULT_POR_CLASSE,
+        help=f"Exemplos por classe (padrão: {DEFAULT_POR_CLASSE})",
+    )
+    parser.add_argument(
+        "--output",
+        type=str,
+        default="data/raw/dataset_sintetico.csv",
+        help="Caminho do CSV de saída",
+    )
+    parser.add_argument(
+        "--lote",
+        type=int,
+        default=20,
+        help="Tamanho do lote por chamada ao Ollama (padrão: 20)",
+    )
+    parser.add_argument(
+        "--seed",
+        type=int,
+        default=42,
+        help="Seed para reprodutibilidade",
+    )
+    args = parser.parse_args()
+
+    random.seed(args.seed)
+
+    print("🏥 Gerador de Dados Sintéticos — Triagem Médica")
+    print(f"   Modelo Ollama : {OLLAMA_MODEL}")
+    print(f"   Por classe    : {args.por_classe}")
+    print(f"   Lote          : {args.lote}")
+    print(f"   Output        : {args.output}")
+
+    # Verifica se Ollama está acessível
+    try:
+        requests.get("http://localhost:11434", timeout=5)
+    except Exception:
+        print("\n❌ Ollama não está acessível em localhost:11434")
+        print("   Inicie com: ollama serve")
+        return
+
+    todos = []
+    for classe in LABEL_MAP:
+        dados_classe = gerar_classe(classe, args.por_classe, args.lote)
+        todos.extend(dados_classe)
+
+    random.shuffle(todos)
+    mostrar_distribuicao(todos)
+    salvar_csv(todos, Path(args.output))
+
 
 if __name__ == "__main__":
     main()
