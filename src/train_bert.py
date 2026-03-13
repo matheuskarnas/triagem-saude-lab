@@ -4,13 +4,17 @@ train_bert.py
 Fine-tuning do BERTimbau para classificação de triagem médica.
 Usa GPU automaticamente se disponível.
 
+Classes (conforme documento do desafio técnico):
+  LEVE     (0) — sintomas leves, consulta agendada
+  MODERADO (1) — atenção em até 24h
+  URGENTE  (2) — risco imediato de vida
+
 Uso:
     python src/train_bert.py
     python src/train_bert.py --epochs 5 --batch_size 16
 """
 
 import argparse
-import os
 import numpy as np
 import pandas as pd
 import torch
@@ -28,12 +32,12 @@ import seaborn as sns
 
 # ─── Configuração ─────────────────────────────────────────────────────────────
 
-MODEL_NAME   = "neuralmind/bert-base-portuguese-cased"  # BERTimbau
-CLASSES      = ["EMERGENCIA", "URGENTE", "NAO_URGENTE"]
-LABEL2ID     = {c: i for i, c in enumerate(CLASSES)}
-ID2LABEL     = {i: c for i, c in enumerate(CLASSES)}
-MAX_LENGTH   = 128
-DEVICE       = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+MODEL_NAME = "neuralmind/bert-base-portuguese-cased"  # BERTimbau
+CLASSES    = ["LEVE", "MODERADO", "URGENTE"]
+LABEL2ID   = {c: i for i, c in enumerate(CLASSES)}
+ID2LABEL   = {i: c for i, c in enumerate(CLASSES)}
+MAX_LENGTH = 128
+DEVICE     = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 
 # ─── Dataset ──────────────────────────────────────────────────────────────────
@@ -90,7 +94,7 @@ def salvar_matriz_confusao(y_true, y_pred, output_dir):
         cm, annot=True, fmt="d", cmap="Reds",
         xticklabels=CLASSES, yticklabels=CLASSES
     )
-    plt.title("Matriz de Confusão — BERTimbau")
+    plt.title("Matriz de Confusão — BERTimbau Triagem")
     plt.ylabel("Real")
     plt.xlabel("Predito")
     plt.tight_layout()
@@ -124,6 +128,14 @@ def main():
         return
 
     df["label_id"] = df["label"].map(LABEL2ID)
+
+    # Checar se há NaN (labels não mapeados)
+    nan_count = df["label_id"].isna().sum()
+    if nan_count > 0:
+        print(f"⚠️  {nan_count} exemplos com label desconhecido — removendo")
+        df = df.dropna(subset=["label_id"])
+
+    df["label_id"] = df["label_id"].astype(int)
     print(f"   {len(df)} exemplos | distribuição: {df['label'].value_counts().to_dict()}")
 
     # ── Split ─────────────────────────────────────────────────────────────────
@@ -205,8 +217,8 @@ def main():
     print("\n📊 Relatório de Classificação:")
     print(classification_report(y_true, y_pred, target_names=CLASSES))
 
-    recall_emerg = recall_score(y_true, y_pred, average=None)[0]
-    print(f"🚨 Recall EMERGENCIA: {recall_emerg:.3f}")
+    recall_urgente = recall_score(y_true, y_pred, average=None)[2]
+    print(f"🚨 Recall URGENTE (classe crítica): {recall_urgente:.3f}")
 
     salvar_matriz_confusao(y_true, y_pred, args.output)
 
@@ -216,9 +228,9 @@ def main():
     tokenizer.save_pretrained(model_dir)
 
     print(f"\n✅ Modelo salvo em: {model_dir}")
-    print(f"🎯 Recall EMERGENCIA final: {recall_emerg:.3f}")
+    print(f"🎯 Recall URGENTE final: {recall_urgente:.3f}")
 
-    if recall_emerg < 0.80:
+    if recall_urgente < 0.80:
         print("⚠️  Recall abaixo de 0.80 — considere mais épocas ou ajuste de threshold")
     else:
         print("✅ Recall dentro do esperado para produção!")
